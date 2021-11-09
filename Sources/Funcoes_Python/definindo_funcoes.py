@@ -60,5 +60,17 @@ diz_oi()
 
 # Definindo funcão:
 
-def diz_parabens():
-    print("Parabéns pra voce !!!")
+def cantar_parabens():
+    print("Parabéns pra voce\nnesta data querida\nmuitas felicidades\nmuitos anos de vida.\n Felicidades ao aniversáriante !!!\n")
+
+# Ultilizando funcão :
+    # chamada de funcão :
+
+for n in range(5):
+    print(n)
+    cantar_parabens()
+
+# Em python, podemos criar uma variável do tipo funcão e executar a funcão dentro da variável declarada
+
+cantar = cantar_parabens
+cantar()
