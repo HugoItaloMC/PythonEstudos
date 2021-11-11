@@ -14,33 +14,7 @@ há quem for repassar este conteúdo, digo por reconhecimento,
 afirmar autoria deste conteúdo didático, aproveite os estudos.
 
  - Criando Repositório estudo Python.
-<<<<<<< HEAD
- - Conclusão Aula list, conhecendo o módulo e tecnicas de como ultiliza-lo
- - Conhecendo Módulo Collectins do Python:
-High-Perfomance Container Datatype
-
- - Conclusão da aula módulo Counter, exemplos com
-interáveis, strings, textos grandes.
-
- - Conclusão aula módulo defaultdict, exemplos
-práticos de como ultilizar o módulo 
-e a diferenca entre dicionario comum e Default Dict.
-
- - Conclusão aula módulo OrderedDict, exemplos práticos
-de como ultilizar o módulo e a diferenca entre
-dicionario comum e Ordered Dict.
-
- - Conclusão aula módulo namedtuple, exemplos 
-práticos de como ultilizar o módulo.
-
- - Conclusão do módulo deque, exemplos
-práticos de como ultilizar o módulo.
-
- - Iniciando estudo secao: Funcões Python
-=======
-
- - Estudo : Colecões Python
-
+ 
  - Módulo list, exemplos práticos de como ultilizar o módulo
 com diversos tipo de dados
 
@@ -69,3 +43,5 @@ práticos de como ultilizar o módulo.
  - Fundamentos e exemplos práticos da definicão de uma funcão
 
  - Fundamentos e exemplos práticos de funcões com retorno
+
+ - Iniciando aula : funcões com parametros
