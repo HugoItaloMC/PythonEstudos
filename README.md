@@ -44,4 +44,4 @@ práticos de como ultilizar o módulo.
 
  - Fundamentos e exemplos práticos de funcões com retorno
 
- - Iniciando aula : funcões com parametros
+ - Fundamentos e exemplos práticos de funcões com parametros

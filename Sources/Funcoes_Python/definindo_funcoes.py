@@ -13,7 +13,8 @@
 
  - OBS : Se vc escrever uma funcão que realiza varias tarefas dentro dela,
 é bom fazer uma verificacão para que a funcão seja simplificada.
- - Na programacão vc vai ouvir muito um termo tecnico chamado 'DRY' : Don't repeat yourself : Não repita seu código/vc mesmo
+ - Na programacão vc vai ouvir muito um termo tecnico chamado 'DRY' :
+Don't repeat yourself : Não repita seu código/vc mesmo
 
 # Exemplo de ultilizacão de funcões:
 
@@ -38,14 +39,18 @@ def nome_da_funcao(parametro_entrada):
  - bloco_da_funcao : Também chamado de corpo da funcão ou implementacão é onde o processamento da funcão acontece neste 
 bloco pode ter ou não retorno da funcão. 
 
- - OBS :  Veja que para definirmos uma funcão, ultilizamos uma palavra reservada 'def' informando ao Python que estamos definindo
+ - OBS :  Veja que para definirmos uma funcão, ultilizamos
+ uma palavra reservada 'def' informando ao Python que estamos definindo
 uma funcão e também abrimos o bloco com ' :  ' que é ultilizado para definir blocos.
 """
 
 # Definindo funcão :
 
+
 def diz_oi():
     print('oi')
+
+
 """
 OBS : 
  - Veja que dentro de uma funcão podemos ultilizar outras funcões; 
@@ -54,23 +59,26 @@ OBS :
  - A funcão não retorna nada;
 """
 # Ultilizando a funcão:
-    # Chamada de funcão
+# Chamada de funcão
 
 diz_oi()
 
 # Definindo funcão:
 
+
 def cantar_parabens():
-    print("Parabéns pra voce\nnesta data querida\nmuitas felicidades\nmuitos anos de vida.\n Felicidades ao aniversáriante !!!\n")
+    print(f"Parabéns pra voce\n nesta data querida\n muitas felicidades",
+    f"\n muitos anos de vida.\n Felicidades ao aniversáriante !!!\n")
 
 # Ultilizando funcão :
-    # chamada de funcão :
+# chamada de funcão :
 
 for n in range(5):
     print(n)
     cantar_parabens()
 
 # Em python, podemos criar uma variável do tipo funcão e executar a funcão dentro da variável declarada
+
 
 cantar = cantar_parabens
 cantar()
