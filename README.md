@@ -45,3 +45,9 @@ práticos de como ultilizar o módulo.
  - Fundamentos e exemplos práticos de funcões com retorno
 
  - Fundamentos e exemplos práticos de funcões com parametros
+
+ - Fundamentos e exemplos práticos de funcões com parametros padrão
+
+ - Documentando as funcões
+ 
+ - Fundamentos e exemplos práticos com *args 

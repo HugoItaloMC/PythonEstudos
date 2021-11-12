@@ -42,7 +42,7 @@ def soma(n1, n2):
 
 
 def subtr(n1, n2):
-    if n1 > 0  and n2: return n1 - n2
+    if n1 > 0 and n2: return n1 - n2
 
 
 def mat(n1, n2, fun=soma):
@@ -71,6 +71,7 @@ print(f"{''.join(total)}")
 # Podemos ter funcões dentro de funcões e ultilizar suas variáveis locais de uma forma 'global' :
 #   exemplo :
 
+
 def saida(n):
     cont = []
 
@@ -80,5 +81,6 @@ def saida(n):
         cont += n
         return ''.join(cont)
     return ensaida()
+
 
 print(saida(input(" : ")))
