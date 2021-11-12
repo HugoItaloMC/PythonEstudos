@@ -1,6 +1,6 @@
 """
-  Listas(list) em Python é o mesmo que Vetores/Matrizes(arrays) em outras linguagens com a diferenca de serem *dinamicos*
-e também podemos colocar *qualquer* tipo de dados.
+  Listas(list) em Python é o mesmo que Vetores/Matrizes(arrays) em outras linguagens com
+a diferenca de serem *dinamicos* e também podemos colocar *qualquer* tipo de dados.
 
  Arrays em C e ou Java:
 Possuem tamanho e tipo de dado fixos, ou seja, nestas liguagens um array do tipo int e com tamanho 5, este array
@@ -10,7 +10,7 @@ será    SEMPRE  do tipo int SEMPRE  no máximo 5 valores.
 - Qualquer tipo de dados:  Não possuem tipo de dados fixo, ou seja, podemos colocar qualquer tipo de dados.
  As listas em Python são representadas por colchetes:    '[]'
 """
-type([]) # Definicão de uma lista
+type([])  # Definicão de uma lista
 list1 = [1, 2, 3, 4, 54, 55, 63, 66, 77, 72, 88, 81, 99, 90, 100, 101]
 list2 = ['G', 'e', 'e', 'k', ' ', 'U', 'n', 'i', 'v', 'e', 'r', 's', 'i', 't', 'y']
 list3 = []
@@ -24,13 +24,16 @@ print(f"\nlist1=\t{list1}\n", f"variável list1 é do tipo de dado {type(list1)}
       f"list5=\t{list5}\n", f"a variável list5 é do tipo de dado {type(list5)}\n\n")
 
 # Verificando dados de uma lista:
-    #   Ultilizando estrutura if:
-a = True if 88 in list1 else False
+#   Ultilizando estrutura if:
+if 88 in list1:
+      a = True
+else:
+      a = False
 print(f"{a}\n")
 
 # Conhecendo módulos para se ultilizar com tipo de dado list[]
-    # .sort() : Ordena uma lista;
-        # Exemplos:
+#     .sort() : Ordena uma lista;
+#           Exemplos:
 list1.sort()
 list2.sort()
 print(f" {list1}\n", f"{list2}\n")
