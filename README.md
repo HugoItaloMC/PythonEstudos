@@ -48,6 +48,6 @@ práticos de como ultilizar o módulo.
 
  - Fundamentos e exemplos práticos de funcões com parametros padrão
 
- - Documentando as funcões
+ - Documentando as funcões com docstring
  
  - Fundamentos e exemplos práticos com *args 

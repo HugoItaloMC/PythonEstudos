@@ -1,5 +1,9 @@
 """
 Documentando funcões
+    - A solucão na qual a funcão atende deve ser comentada 'docstring'
+    - Podemos acessar a docstring de uma funcão ultilizando:
+        .__doc__
+        help()
 """
 def diz_oi():
     """ Uma funcão simples que retorna a palavra 'Oi !' """
