@@ -1,5 +1,6 @@
 """
-Entendendo o *args
+*args
+ Poderíamos chamar este parametro de (*x, *n, *par) mas por convencão da comunidade chamamos de *args
     - O paramëtro *args ultilizado em uma funcão, coloca valores extras informados como
 entrada em uma tuple. Então desde já lembre-se que tuplas são imutáveis.
 """

@@ -51,3 +51,5 @@ práticos de como ultilizar o módulo.
  - Documentando as funcões com docstring
  
  - Fundamentos e exemplos práticos com *args 
+
+ - Fundamentos e exemplos práticos com **kwargs
