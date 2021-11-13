@@ -11,6 +11,7 @@ def teste(nome='', email='', *args):
 
 
 print(teste(2, 3, 4, 5, 7, 200))
+print(teste(2, 3, 4, 5, 7, 200))
 print(teste('joao', 'joao@email.com', 11, 22, 33, 55, 77, 1011))
 print(teste())
 
