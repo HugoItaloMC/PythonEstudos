@@ -1,7 +1,7 @@
 """
 Funcões com parametros padrões ( Default Parameters )
     - funcões onde a passagem de parametro seja opicional
-Por quë ultilizar valores default nos parametros:
+Por quë ultilizar valores default nos parametros?:
     - Nos permite ser mais flexíveis nas funcões;
     - Evita erros com parametros incorretos;
     - Nos permite trabalhar com exemplos mais legiveis nos códigos;

@@ -11,7 +11,7 @@ menor = 999
 for i in range(10):
     i = int(input("Digite valor : "))
     if i > maior:
-       maior = i
+        maior = i
     elif i < menor:
         menor = i
     else:

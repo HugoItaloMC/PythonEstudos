@@ -53,3 +53,7 @@ práticos de como ultilizar o módulo.
  - Fundamentos e exemplos práticos com *args 
 
  - Fundamentos e exemplos práticos com **kwargs
+
+ - Comprehensions em Python :
+
+ - Fundamentos e exemplos práticos com list comprehension
