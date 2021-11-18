@@ -1,16 +1,45 @@
 """
-Ultilizando linguagem Python, versão 3.10
-===========================================
-    Ordem de declarassão de variáveis :
-        .  .
+Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Comprehensions
 
 
-List Comprehensions
-    - Ultilizando list comprehension podemos gerar novas listas com dados processados a partir de outr
+Python, versão :  3.10
+
+ Base :
+    Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
+
+
+Secão 9 ; Comprehensions em Python :
+
+    List Comprehensions
+       - Ultilizando list comprehension podemos gerar novas listas com dados processados a partir de outro
 iterável
+
     # Sintax da list comprehension :
 
-        [dado for dado in interável]
+        [dado for dado in iterável]
+
+
+.==============================================.
+|     " " " " " " " " " " " " " " " " " "      |
+|     "       Ordem alfabetica na       "      |
+|     "    declarassão de variáveis :   "      |
+|     "                                 "      |
+|     "            Examples :           "      |
+|     "                                 "      |
+|     "            a = ''               "      |
+|     "             b = 0               "      |
+|     "             c = True            "      |
+|     "                                 "      |
+|     "    Ordem válida para funcões    "      |
+|     "      e seus parametros :        "      |
+|     "                                 "      |
+|     "          Examples:              "      |
+|     "                                 "      |
+|     "       def d(da, db):            "      |
+|     "       return (da + db) * da     "      |
+|     " " " " " " " " " " " " " " " " " "      |
+.==============================================.
+
 
 """
 a = [1, 2, 3, 4, 5, 6]
@@ -35,7 +64,7 @@ r1 = [b(n1) for n1 in a]
 
 print(r1)  # [1, 4, 9, 16, 25, 36]
 
-# Comparando solucões, ultilizando comprehensions e depois loops.
+# Comparando solucões, ultilizando loops e depois list comprehensions.
 
 # Loop :
 
