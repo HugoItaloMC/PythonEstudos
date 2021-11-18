@@ -57,3 +57,5 @@ práticos de como ultilizar o módulo.
  - Comprehensions em Python :
 
  - Fundamentos e exemplos práticos com list comprehension
+
+ - Fundamentos e exemplos práticos com Listas Aninhadas
