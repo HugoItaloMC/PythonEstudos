@@ -41,7 +41,6 @@ iterável
 .==============================================.
 
 
-"""
 
 
 # Ultilizando list comprehensions como estrutura condicionais
@@ -71,3 +70,5 @@ print(f"{b}", f"\n{c}")
 b = [n * 2 if n % 2 == 0 else n / 2 for n in a ]  # Retorna números pares e divide os ímpares por 2
 
 print(f"{b}")
+
+"""
