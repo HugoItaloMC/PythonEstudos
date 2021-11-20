@@ -7,7 +7,6 @@ Python, versão :  3.10
  Base :
     Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
 
-
 Secão 9 ; Comprehensions em Python :
 
     Listas aninhadas (Nested lists)
@@ -50,7 +49,6 @@ print(a[3][2])
 print(a[2][0]
 
 # Iterando com loops em uma lista aninhada
-
 for b in a:
     for c in b:
         print(c)

@@ -61,3 +61,7 @@ práticos de como ultilizar o módulo.
  - Fundamentos e exemplos práticos com Listas Aninhadas
 
  - Fundamentos e exemplos práticos com Dict's Comprehensions
+
+ - Expressões lambdas e funcões integradas :
+
+ - Fundamentos e exemplos práticos com lambdas
