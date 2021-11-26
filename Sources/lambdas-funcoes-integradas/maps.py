@@ -2,7 +2,7 @@
 
 
 
-Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Sources/
 
 
 Python, versão :  3.10
@@ -94,4 +94,28 @@ print(f"{list(map(area, raios))}")
 print(list(map(lambda r: math.pi * (r ** 2), raios)))
 
 # OBS :  Após ultilizar a funcão map, depois do primeiro retorno do resultado ele zera.
+"""
+
+
+# Fixando o map() :
+
+# Exemplos
+
+# Convertendo dados ' graus ceucius ' para ' firenight  ' :
+
+# expressão da formula : (9 / 5 ) * c + 32
+
+f = lambda x: (x[0], (9 / 5) * x[1] + 32)
+
+
+# Entrada de dados,  -- neste exemplo uma list com tuple como ocorrencias :
+
+cidades = [('Sao Paulo', 29), ('Campinas', 26), ('Ribeirao Preto', 33), ('Sao Caetano', 31), ('Pilar do Sul', 23),
+           ('Sao Caetano', 25), ('Santo andre', 31), ('Santos', 28)]
+
+# Processamento : ultilizando map(), lembrando que o map tem 2 ocorrencias como parametros, 1 uma funcao, 2 um iteravel
+
+print(list(map(f, cidades)))
+"""
+ - Passamos a funcão na primeira ocorrencia como parametro no map() e logo após os dados 
 """

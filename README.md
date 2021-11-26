@@ -65,3 +65,7 @@ práticos de como ultilizar o módulo.
  - Expressões lambdas e funcões integradas :
 
  - Fundamentos e exemplos práticos com lambdas
+
+ - Fundamentos e exemplos práticos com módulo map
+
+ - Fundamentos e exemplos práticos com módulo filter
