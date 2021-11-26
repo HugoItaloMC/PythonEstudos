@@ -66,6 +66,10 @@ práticos de como ultilizar o módulo.
 
  - Fundamentos e exemplos práticos com lambdas
 
- - Fundamentos e exemplos práticos com módulo map
+ - Fundamentos e exemplos práticos com a funcão integrada map
 
- - Fundamentos e exemplos práticos com módulo filter
+ - Fundamentos e exemplos práticos com a funcão integrada filter
+
+ - Fundamentos e exemplos práticos com a funcão reduce
+
+ - Fundamentos e exemplos práticos com as funcões integradas Any All
