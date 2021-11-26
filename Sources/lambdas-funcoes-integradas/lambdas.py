@@ -150,9 +150,7 @@ print(retorno(2))
 print(gerador_funcao_quadratica(3, 5, 10)(2))
 print(gerador_funcao_quadratica(33, 17, 13)(5))
 "  Podemos na mesma linha declarar os argumentos da funcão 'def' e
-
-logo após declarar o argumenta da 'expressão lambda'
-"
+logo após declarar o argumenta da 'expressão lambda' "
 
 """
 

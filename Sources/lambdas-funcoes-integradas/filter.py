@@ -1,20 +1,18 @@
 """
 
-
-
-Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Sources/
+Repositorio remoto : https://github.com/HugoItaloMC/PythonEstudos/tree/main/Sources/lambdas-funcoes-integradas
 
 
 Python, versão :  3.10
 
- Base :
-    Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
+Base :
+Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
 
 
 Secão 10 : Expressões lambdas e funcões integradas.
 
-    Map :
-       Mapeamento de valores para funcão.
+Filter :
+Filtra dados de uma colecão.
 
 
 
@@ -52,70 +50,57 @@ Secão 10 : Expressões lambdas e funcões integradas.
 .==============================================.
 
 
-# Iterando com listas ultilizando Map
-# exemplos:
+# Biblioteca para se trabalhar com dados estatisticos
+
+import statistics
+
+dados = [1.5, 2.4, 3.3, 4.2, 5.1]
+
+# Calculando a media dos dados ultilizando o metodo mean() da lib statistics
+media = statistics.mean(dados)
+
+print(f"Media: {media}")
+
+# O filter() tambem possui dois parametros de entrada sendo o primeiro uma funcao e o segundo um iteravel :
+
+print(list(filter(lambda x: x > media, dados)))
 
 
-import math
+paises = ['', '', 'Brasil', '', 'Argentina', '', 'Equador', '', '', 'Venezuela', '', 'Chile', 'Mexico', '', 'Paraguai',
+          '', 'Colombia', '', '']
+
+# print(list(filter(lambda pais: len(pais) > 0, paises)))
+
+# print(list(filter(lambda pais: pais != '', paises)))
 
 
-def area(r):
-    " Calcula a area de um circulo com raio ' r ' "
-    return math.pi * (r ** 2)
+print(list(filter(None, paises)))
+
+# ['Brasil', 'Argentina', 'Equador', 'Venezuela', 'Chile', 'Mexico', 'Paraguai', 'Colombia']
 
 
-raios = [1, 3, 5.1, 66.6, 10]
-areas = []
+# Iterando sobre list e dict :
 
 
-# Forma Comum
+usuarios = [
+    {'username': 'Carol', 'tweets': ['Gosto de carros', 'Fui viajar']},
+    {'username': 'Daiane', 'tweets': ['Ola mundo', 'Gato e bonito']},
+    {'username': 'Renan', 'tweets': []},
+    {'username': 'Carlos', 'tweets': []},
+    {'username': 'dog1233', 'tweets': ['Show maneiro', '100 crise']},
+    {'username': 'sod', 'tweets': []},
+]
 
-raios = [1, 3, 5.1, 66.6, 10]
+# Filtrar usuários que não estão ativos :
 
-areas = []
-for r in raios:
-    areas.append((area(r)))
+# forma 1 :
 
-print(areas)
+print(list(filter(lambda u: len(u['tweets']) == 0, usuarios)))
 
+# Refatorando:
 
-# Map é uma funcão que recebe dois parametros: O primeiro a funcão, o segundo um iterável
-
-areas = map(area, raios)
-
-print(areas)  # Retorna um map object
-print(list(areas))
-
-
-# Refatorando
-
-print(f"{list(map(area, raios))}")
-
-print(list(map(lambda r: math.pi * (r ** 2), raios)))
-
-# OBS :  Após ultilizar a funcão map, depois do primeiro retorno do resultado ele zera.
+print(list(filter(lambda u: not u['tweets'], usuarios)))
 """
 
 
-# Fixando o map() :
 
-# Exemplos
-
-# Convertendo dados ' graus ceucius ' para ' firenight  ' :
-
-# expressão da formula : (9 / 5 ) * c + 32
-
-f = lambda x: (x[0], (9 / 5) * x[1] + 32)
-
-
-# Entrada de dados,  -- neste exemplo uma list com tuple como ocorrencias :
-
-cidades = [('Sao Paulo', 29), ('Campinas', 26), ('Ribeirao Preto', 33), ('Sao Caetano', 31), ('Pilar do Sul', 23),
-           ('Sao Caetano', 25), ('Santo andre', 31), ('Santos', 28)]
-
-# Processamento : ultilizando map(), lembrando que o map tem 2 ocorrencias como parametros, 1 uma funcao, 2 um iteravel
-
-print(list(map(f, cidades)))
-"""
- - Passamos a funcão na primeira ocorrencia como parametro no map() e logo após os dados 
-"""
