@@ -1,5 +1,9 @@
 """
+Official Documentation :
+https://docs.python.org/pt-br/3/library/exceptions.html
+
 Try Except Else Finally
+
 
 Dicas de quando e onde tratar seu código:
 
@@ -50,3 +54,19 @@ def operacao(n1, n2):  # funcão para dividir dois inteiros
 
 # Entrada :
 print("Resultado: ", operacao(input(f"operacão (divisão)\nDigite Valor: "), input("Digite Valor: ")))
+
+
+# DICA :
+
+def operacao(n1, n2):
+    try:
+        int(n1) / int(n2)
+    except ArithmeticError:
+        return "Operacao Inválida"
+
+print("Resultado: ", operacao(input("Digite Numero : "), input("Digite Numero")))
+'''
+ArithmeticError: A classe base para as exceções embutidas levantadas para vários erros aritméticos: 
+OverflowError, ZeroDivisionError, FloatingPointError.
+'''
+
