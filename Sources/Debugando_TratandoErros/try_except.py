@@ -64,6 +64,10 @@ except:
 def entrada(chave, valor):
     try:
         return chave[valor]
+    except KeyError:
+        return None
+    except TypeError:
+        return None
     except:
         return None
 
