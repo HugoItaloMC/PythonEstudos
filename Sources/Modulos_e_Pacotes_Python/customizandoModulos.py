@@ -3,7 +3,6 @@
 do módulo
 """
 # Podemos exportar nossos módulos e ultilzar suas funcões
-# Lembrando que para ultilizar os módulos, os arquivos devem estar no mesmo diretório.
 
 import funcoes_com_parametroPadrao as fcpp  # Podemos ultilzar o alias ' as ' para renomear nossos módulos
 

@@ -38,7 +38,7 @@ print(mostra_informacao(nome='Maria'))
 
 
 def soma(n1, n2):
-    if n1 > 0 and n2: return n1 + n2
+    return n1 + n2
 
 
 def subtr(n1, n2):
