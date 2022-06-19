@@ -1,5 +1,5 @@
 """
-  Já que Módulos são códigos Python, podemos ultilizar nossos códigos, ultilizando todas funcões e variáveis
+Já que Módulos são códigos Python, podemos ultilizar nossos códigos, ultilizando todas funcões e variáveis
 do módulo
 """
 # Podemos exportar nossos módulos e ultilzar suas funcões

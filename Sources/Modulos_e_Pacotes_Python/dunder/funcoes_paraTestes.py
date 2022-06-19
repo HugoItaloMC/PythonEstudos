@@ -1,9 +1,9 @@
 """
-Documento de testes para entendimento das funcões built'in __name__ e '__main__'
+Arquivo de testes para entendimento das funcões built'in __name__ e '__main__'
 """
 
 
-# Declarando funcão
+# Declarando funcão para testes
 
 def somaImpar(a):
     total = 0
