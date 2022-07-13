@@ -1,8 +1,8 @@
 """
-Este arquivo serve para testar minhas funcões fora dos seus pacotes definidos
+"Este arquivo serve para testar minhas funcões fora dos seus pacotes definidos"
 
 
-# Funcão com para mostrar saída da entrada no console
+# Funcão para mostrar saída da entrada no console
 def saida(n):
     cont = []
 
@@ -24,6 +24,7 @@ def fib(n):
     print()
 
 print(fib(1000))
+
 # importando o módulo
 from Sources.Funcoes_Python import funcoes_com_parametroPadrao as fcPp
 from fpdf import FPDF
@@ -53,7 +54,8 @@ finally:
     pdf.output( 'tuto1.pdf', 'F' )  # criando arquivo, arquivo PDF será criado no diretório que se encontra o arquivo .
     cons = 1
 
-"""
+
 
 arquivo = open( 'arquivo2.txt', mode='w')
 print('Texto Para teste', file=arquivo)
+"""
