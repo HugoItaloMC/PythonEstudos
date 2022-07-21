@@ -32,9 +32,18 @@ print(os.path.exists('/home/correia/PycharmProjects/PythonEstudos/Sources')) # T
 
 # Criando multiplos diretórios (árvore-de-diretórios)
 
-os.makedirs('/home/correia/PycharmProjects/PythonEstudos/Sources/templates/core/app/style/script/', exist_ok=True)
+# os.makedirs('/home/correia/PycharmProjects/PythonEstudos/Sources/templates/core/app/style/script/', exist_ok=True)
 
 # Renomeando arquivos ou diretórios
 
-os.rename('/home/correia/PycharmProjects/PythonEstudos/Sources/templates', 'pattern')
+# Diretórios
+
+# os.rename('/home/correia/PycharmProjects/PythonEstudos/Sources/templates', 'pattern')
+
 # Alterou o nome e moveu o diretório para onde se encontra o '__main__'
+
+# os.rename('pattern', 'templatePattern')
+
+# Arquivos
+
+os.rename('teste.txt', 'arquivoTeste.txt')
