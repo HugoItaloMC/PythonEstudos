@@ -1,42 +1,25 @@
 """
-"Este arquivo serve para testar minhas funcões fora dos seus pacotes definidos"
+ Ultilizando Python 3.10
+ Testes bloco try except
+ - Receber Entrada de usuário em um iterável
+ - Tratar possíveis erros
+ - Ultilizar funcões de módulos importados
 
-
-# Funcão para mostrar saída da entrada no console
-def saida(n):
-    cont = []
-
-    def ensaida():
-        nonlocal cont
-
-        cont += n
-        return ''.join(cont)
-    return ensaida()
-
-print(saida(input(" : ")))
-
-# Funcão para a regra de fibonacci
-def fib(n):
-    a, b = 0, 1
-    while a < n:
-        print(a, end=' ')
-        a, b = b, a+b
-    print()
-
-print(fib(1000))
 
 # importando o módulo
-from Sources.08-Funcoes_Python import funcoes_com_parametroPadrao as fcPp
-from fpdf import FPDF
+
+from Sources.08-Funcoes_Python import funcoes_com_parametroPadrao as fcPp  # Módulos criados nos estudos
+from fpdf import FPDF  # Módulo para trabalhar com arquivos PDF
+
 
 try:
-    quantidade_loop = int( input( "Digite Quantidade de loops: " ) )
+    quantidade_loop = int( input( "Digite Quantidade de loops: " ))  # Recebendo Entrada em um iterável
 except (ValueError, NameError, ArithmeticError, TypeError) as err:  # Tratando erros Built-in's do Python
     print( f"ERRO : {err}" )  # Saída de Erro
-else:
+else:  # Processamento da entrada
     cont = []
-    for _ in range( 1, quantidade_loop ):
-        try:
+    for _ in range( 1, quantidade_loop ):  # Iterando sobre a entrada
+        try:  #
             n = 0
             a = int( input( 'Digite Valor 1: ' ) )
             b = int( input( 'Digite Valor 1: ' ) )
@@ -54,8 +37,5 @@ finally:
     pdf.output( 'tuto1.pdf', 'F' )  # criando arquivo, arquivo PDF será criado no diretório que se encontra o arquivo .
     cons = 1
 
-
-
-arquivo = open( 'arquivo2.txt', mode='w')
-print('Texto Para teste', file=arquivo)
 """
+
