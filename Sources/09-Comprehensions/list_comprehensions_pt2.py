@@ -1,5 +1,5 @@
 """
-Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remote : github.com/HugoItaloMC/PythonEstudos/09-Comprehensions
 
 
 Python, versão :  3.10
@@ -8,9 +8,9 @@ Python, versão :  3.10
     Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
 
 
-Secão 9 ; Comprehensions em Python :
+Secão 9 ; 09-Comprehensions em Python :
 
-    List Comprehensions pt2
+    List 09-Comprehensions pt2
        - Ultilizando list comprehension podemos gerar novas listas com dados processados a partir de outro
 iterável
 

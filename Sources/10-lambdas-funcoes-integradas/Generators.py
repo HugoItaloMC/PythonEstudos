@@ -6,7 +6,7 @@ ex simples :
 
  Não Vimos tuple comprehensions, o mesmo é chamado de Generatores,
 Generators é um objeto do tipo Generator, seu uso em memória é menor
-em relacão e os Comprehensions de Python.
+em relacão e os 09-Comprehensions de Python.
 """
 # Iterando sobre Generators
 

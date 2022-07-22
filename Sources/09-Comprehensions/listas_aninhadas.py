@@ -1,5 +1,5 @@
 """
-Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remote : github.com/HugoItaloMC/PythonEstudos/09-Comprehensions
 
 
 Python, versão :  3.10
@@ -7,7 +7,7 @@ Python, versão :  3.10
  Base :
     Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
 
-Secão 9 ; Comprehensions em Python :
+Secão 9 ; 09-Comprehensions em Python :
 
     Listas aninhadas (Nested lists)
        Em python temos como iterar em listas dentro de uma lista, formando colunas e linhas

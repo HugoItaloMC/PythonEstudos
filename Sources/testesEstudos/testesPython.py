@@ -26,7 +26,7 @@ def fib(n):
 print(fib(1000))
 
 # importando o módulo
-from Sources.Funcoes_Python import funcoes_com_parametroPadrao as fcPp
+from Sources.08-Funcoes_Python import funcoes_com_parametroPadrao as fcPp
 from fpdf import FPDF
 
 try:

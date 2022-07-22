@@ -14,7 +14,7 @@ import os
 
 # retornando o caminho corrente :
 
-print(os.getcwd())  # /home/correia/PycharmProjects/PythonEstudos/Sources/LeituraEscrita_emArquivos
+print(os.getcwd())  # /home/correia/PycharmProjects/PythonEstudos/Sources/13-LeituraEscrita_emArquivos
 
 # Mudando de diretório
 
