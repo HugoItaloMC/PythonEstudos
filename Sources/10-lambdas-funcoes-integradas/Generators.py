@@ -4,7 +4,7 @@ Generators
 ex simples :
 (n for n in ['abcd'] if n in 'abcd')
 
- Não Vimos tuple comprehensions, o mesmo é chamado de Generatores,
+ Não Vimos tuple comprehensions, o mesmo é chamado de Generators
 Generators é um objeto do tipo Generator, seu uso em memória é menor
 em relacão e os 09-Comprehensions de Python.
 """

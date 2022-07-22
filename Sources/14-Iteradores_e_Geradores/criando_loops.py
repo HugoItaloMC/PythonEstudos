@@ -31,3 +31,11 @@ def meu_for(iteravel):
 
 
 meu_for("Geek")
+c = (['x' if a % 2 == 0 else 'o' for a in range(1, 101)] for b in range(1, 1001))
+
+iterable = (x * 10 for x in range(1000) )
+for event in iterable:
+    print(event)
+
+meu_for(c)
+meu_for(iterable)
