@@ -168,7 +168,7 @@ produto += ', \n'.join(carrinho)
 print(f"\nProdutos :\n{produto}")
 
     # -- Fazemos Acesso aos indices de forma indexada
-    #      0         1         2         3
+    #      0         1         2         3        4
 cores = ['azul', 'amarelo', 'verde', 'branco', 'roxo']
 
 print(f"\n {cores[0]}",    # azul
@@ -176,7 +176,7 @@ print(f"\n {cores[0]}",    # azul
       f"\n {cores[2]}",    # verde
       f"\n {cores[3]}",    # branco
       f"\n {cores[4]}")    # roxo
-    # Para entender os indices negfativos, pense na list como um circulo onde o final se encontra com o comeco.
+    # Para entender os indices neggativos, pense na list como um circulo onde o final se encontra com o comeco.
         # Exemplo :
 print(f"\n\n{cores[0]}",    # azul
       f"\n {cores[-1]}",    # roxo

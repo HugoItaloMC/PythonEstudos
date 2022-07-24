@@ -1,5 +1,5 @@
 """
-Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/09-Comprehensions
+Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Comprehensions
 
 
 Python, versão :  3.10

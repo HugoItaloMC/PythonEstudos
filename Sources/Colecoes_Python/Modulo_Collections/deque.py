@@ -10,7 +10,6 @@ from collections import deque
 # Criando deques:
 deq = deque('Teste estudo')
 print(deq)
-
 # Adicionando elementos no deque
 deq.append('y') # Adiciona no final
 print(deq)

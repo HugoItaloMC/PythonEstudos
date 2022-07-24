@@ -1,5 +1,13 @@
+
+
+
+
+
+
+
+
 """
-Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/09-Comprehensions
+Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Comprehensions
 
 
 Python, versão :  3.10
@@ -8,20 +16,17 @@ Python, versão :  3.10
     Curso : Programacão Python Essensial. Didática : Geek University. Plataforma :  udemy.com
 
 
-Secão 9 ; 09-Comprehensions em Python :
+Secão 9 ; Comprehensions em Python :
 
-    Set's 09-Comprehensions :
+    Dict's Comprehensions :
+        Podemos iterar com os valores dentro de um dict
 
-    # exemplos
-     :
-        numeros = {n for n in range(1, 11)}
-        print(numeros)
+    # exemplo :
 
-        numeros = {n ** 2 for n in range(1, 11)}
-        print(numeros)
+     dicty = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+     output = {chave : valor ** 2 for chave, valor in dicty.items()}
 
-        letras = {letra for letra in 'Teste de Set'}
-        print(letras)
+     print(output)
 
 
 .==============================================.
@@ -30,6 +35,8 @@ Secão 9 ; 09-Comprehensions em Python :
 |     "      globais e locais :         "      |
 |     "                                 "      |
 |     "       Examples Global :         "      |
+|     "                                 "      |
+|     "                                 "      |
 |     "                                 "      |
 |     "            a = ''               "      |
 |     "             b = 0               "      |
@@ -57,6 +64,170 @@ Secão 9 ; 09-Comprehensions em Python :
 |     " " " " " " " " " " " " " " " " " "      |
 .==============================================.
 
+
+```
+ Colocando cada valor da list 'a' como chave no dict 'b' e elevando ao quadrado esse valor,
+e inserindo como valor de chave
+```
+# Exemplos :
+
+a = [1, 2, 3, 4, 5]
+
+b = {c: c ** 2 for c in a}
+
+print(b)
+
+
+# Iterando em dict comprehensions ultilizando lists e strings
+
+a = 'abcde'
+b = [1, 2, 3, 4, 5]
+
+c = {a[d] : b[d] for d in range(0, len(c))}
+
+print(c)
+
+
+# Iterando em dict comprehensions com estrutura condicional :
+
+# Exemplos :
+
+a = [1, 2, 3, 4, 5]
+
+b = {c: ('par' if c % 2 == 0 else 'impar') for c in a}
+
+print(b)
 """
-letras = {letra for letra in 'Teste de Set'}
-print(letras)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a = [1, 2, 3, 4, 5]
+
