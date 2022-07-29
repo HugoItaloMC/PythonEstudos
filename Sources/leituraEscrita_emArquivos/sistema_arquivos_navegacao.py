@@ -14,7 +14,7 @@ import os
 
 # retornando o caminho corrente :
 
-print(os.getcwd())  # /home/correia/PycharmProjects/PythonEstudos/Sources/LeituraEscrita_emArquivos
+print(os.getcwd())  # /home/correia/PycharmProjects/PythonEstudos/Sources/leituraEscrita_emArquivos
 
 # Mudando de diretório
 
@@ -63,7 +63,7 @@ print(os.getcwd())  # /etc/network
 print(os.listdir())
 # /etc/network -> ['if-post-down.d', 'if-down.d', 'interfaces.d', 'if-pre-up.d', 'interfaces', 'if-up.d']
 
-# Podemos passar um path (caminho) para ser listado no siste
+# Podemos passar um path (caminho) para ser listado no sistema
 
 print(os.listdir('/home/correia/Downloads'))
 
