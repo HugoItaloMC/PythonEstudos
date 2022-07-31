@@ -10,11 +10,14 @@ breackpoint() é o método atual de ultilizar o PBD'.
 
 """
 # Ultilizando breakpoint()
+
+
 def operacao(n1, n2):  # funcão para dividir dois inteiros
     try:
         return int(n1) / int(n2)  # Convertendo valor de input em inteiros e retornando-os
     except (ValueError, NameError, ZeroDivisionError, TypeError) as err:  # Tratando erros Built-in's do Python
         return f"ERRO : {err}"  # Saída de Erro
+
 
 # Entrada :
 # breakpoint()
@@ -23,7 +26,7 @@ print("Resultado: ", operacao(input(f"operacão (divisão)\nDigite Valor: "), in
 # Ultilizando o import pbd de uma forma otimizada
 
 nome = "Hugo"
-import pdb; pdb.set_trace()
+# import pdb; pdb.set_trace()
 '''
   COMANDOS BÁSICOS PDB :
   - l . Listar onde estamos no código

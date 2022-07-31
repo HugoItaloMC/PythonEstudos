@@ -59,11 +59,11 @@ print(multi(10, 20, 'Teste'))
 # Nomeando funcões
 
 
-def nome_nompleto(nome, sobrenome):
+def nome_completo(nome, sobrenome):
     return f"Nome Completo : {nome} {sobrenome}"
 
 
-print(nome_nompleto('Angeline', 'Jolie'))
+print(nome_completo('Angeline', 'Jolie'))
 
 
 # OBS : se informarmos um número errado de parametros, sera gerado TypeError
@@ -81,7 +81,7 @@ nome = 'Sofia'
 sobrenome = 'Souza'
 
 
-print(nome_nompleto(nome, sobrenome))
+print(nome_completo(nome, sobrenome))
 
 
 # Arhumentos nomeados (Keyword Arguments)
@@ -89,9 +89,9 @@ print(nome_nompleto(nome, sobrenome))
 # Caso ultilizemos o nome dos parametros nos argumentos podemos, para informa-los, podemos
 # ultilizar qualquer ordem
 
-print(nome_nompleto(nome='Clara ', sobrenome=' Silva'))
-print(nome_nompleto(nome='Ingrid ', sobrenome=' Souza'))
-print(nome_nompleto(sobrenome=' Silva', nome='Clara '))
+print(nome_completo(nome='Clara ', sobrenome=' Silva'))
+print(nome_completo(nome='Ingrid ', sobrenome=' Souza'))
+print(nome_completo(sobrenome=' Silva', nome='Clara '))
 
 
 def soma_impares(numero):

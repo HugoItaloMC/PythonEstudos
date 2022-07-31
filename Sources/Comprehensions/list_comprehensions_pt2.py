@@ -1,5 +1,5 @@
 """
-Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Sources/Comprehensions
 
 
 Python, versão :  3.10
@@ -17,30 +17,6 @@ iterável
     # Sintax da list comprehension :
 
         [dado for dado in iterável]
-
-
-.==============================================.
-|     " " " " " " " " " " " " " " " " " "      |
-|     "       Ordem alfabetica na       "      |
-|     "    declarassão de variáveis :   "      |
-|     "                                 "      |
-|     "            Examples :           "      |
-|     "                                 "      |
-|     "            a = ''               "      |
-|     "             b = 0               "      |
-|     "             c = True            "      |
-|     "                                 "      |
-|     "    Ordem válida para funcões    "      |
-|     "      e seus parametros :        "      |
-|     "                                 "      |
-|     "          Examples:              "      |
-|     "                                 "      |
-|     "       def d(da, db):            "      |
-|     "       return (da + db) * da     "      |
-|     " " " " " " " " " " " " " " " " " "      |
-.==============================================.
-
-
 
 
 # Ultilizando list comprehensions como estrutura condicionais

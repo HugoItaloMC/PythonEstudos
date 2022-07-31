@@ -52,6 +52,7 @@ def operacao(n1, n2):  # funcão para dividir dois inteiros
     except (ValueError, NameError, ZeroDivisionError, TypeError) as err:  # Tratando erros Built-in's do Python
         return f"ERRO : {err}"  # Saída de Erro
 
+
 # Entrada :
 print("Resultado: ", operacao(input(f"operacão (divisão)\nDigite Valor: "), input("Digite Valor: ")))
 
@@ -64,9 +65,9 @@ def operacao(n1, n2):
     except ArithmeticError:
         return "Operacao Inválida"
 
+
 print("Resultado: ", operacao(input("Digite Numero : "), input("Digite Numero")))
 '''
 ArithmeticError: A classe base para as exceções embutidas levantadas para vários erros aritméticos: 
 OverflowError, ZeroDivisionError, FloatingPointError.
 '''
-

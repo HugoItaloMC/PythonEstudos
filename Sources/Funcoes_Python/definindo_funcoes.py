@@ -54,7 +54,7 @@ def diz_oi():
 """
 OBS : 
  - Veja que dentro de uma funcão podemos ultilizar outras funcões; 
- - Essa funcão só executa 1 tarefa:  'print a palvra oi ' ;
+ - Essa funcão só executa 1 tarefa:  'print a palavra oi ' ;
  - A funcão não recebe nem um parametro de entrada;
  - A funcão não retorna nada;
 """

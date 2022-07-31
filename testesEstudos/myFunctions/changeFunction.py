@@ -31,9 +31,14 @@ def change_string(iteravel):
 
 
 def upper_string(iteravel):
-    iteravel
+    return lambda x: x.up
+
 # bloco de execucão do main para testes das funcões do módulo Python
 
 
 if __name__ == '__main__':
-    upper_string()
+    lista = ['ola', 'tudo bem']
+
+    for n1 in lista:
+        if lista[n1] == 'aeiou':
+            print(n1.upper(), end=' ,')

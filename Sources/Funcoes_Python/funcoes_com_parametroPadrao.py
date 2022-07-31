@@ -10,13 +10,13 @@ Podemos ultilizar qualquer tipo de dados nos parametros das funcões:
 """
 
 
-def exponencial(numero, potencia=2):    # Quando informamos o valor ao parametro ele se torna opicional no argumento
+def exponencial(numero, potencia=2):  # Quando informamos o valor ao parametro ele se torna opicional no argumento
     return numero ** potencia
 
 
-#print(exponencial(2, 5))
-#print(exponencial(5, 2))
-#print(exponencial(2))
+# print(exponencial(2, 5))
+# print(exponencial(5, 2))
+# print(exponencial(2))
 
 
 # Exemplos mais complexos:
@@ -42,11 +42,13 @@ def soma(n1, n2):
 
 
 def subtr(n1, n2):
-    if n1 > 0 and n2: return n1 - n2
+    if n1 > 0 and n2:
+        return n1 - n2
 
 
 def mat(n1, n2, fun=soma):
-    if (n1 > 0 or fun != None) and n2: return fun(n1, n2)
+    if (n1 > 0 or fun != None) and n2:
+        return fun(n1, n2)
 
 
 print(mat(2, 3))
@@ -68,6 +70,7 @@ def extr(n):
 extr(input(": "))
 print(f"{''.join(total)}")
 
+
 # Podemos ter funcões dentro de funcões e ultilizar suas variáveis locais de uma forma 'global' :
 #   exemplo :
 
@@ -80,6 +83,7 @@ def saida(n):
 
         cont += n
         return ''.join(cont)
+
     return ensaida()
 
 

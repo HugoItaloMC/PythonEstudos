@@ -1,5 +1,5 @@
 """
-Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remoto : github.com/HugoItaloMC/PythonEstudos/Sources/Comprehensions
 
 
 Python, versão :  3.10
@@ -25,40 +25,6 @@ funcões anonimas.
     lambda x: 3 * x + 1
 
 
-
-
-.==============================================.
-|     " " " " " " " " " " " " " " " " " "      |
-|     "  Ordem alfabetica nas variáveis "      |
-|     "      globais e locais :         "      |
-|     "                                 "      |
-|     "       Examples Global :         "      |
-|     "                                 "      |
-|     "            a = ''               "      |
-|     "             b = 0               "      |
-|     "             c = True            "      |
-|     "                                 "      |
-|     "                                 "      |
-|     "       Examples Local :          "      |
-|     "                                 "      |
-|     "        a = range(0, 10)         "      |
-|     "                                 "      |
-|     "        for b, c in a:           "      |
-|     "            for d, in b:         "      |
-|     "                print(d)         "      |
-|     "            for e in c:          "      |
-|     "                print(e)         "      |
-|     "                                 "      |
-|     "                                 "      |
-|     "    Ordem válida para funcões    "      |
-|     "      e seus parametros :        "      |
-|     "                                 "      |
-|     "          Examples:              "      |
-|     "                                 "      |
-|     "       def d(da, db):            "      |
-|     "       return (da + db) * da     "      |
-|     " " " " " " " " " " " " " " " " " "      |
-.==============================================.
 
 # Como ultilizar a expressão lambda :
 
@@ -153,5 +119,3 @@ print(gerador_funcao_quadratica(33, 17, 13)(5))
 logo após declarar o argumenta da 'expressão lambda' "
 
 """
-
-

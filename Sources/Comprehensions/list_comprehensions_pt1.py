@@ -1,5 +1,5 @@
 """
-Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Comprehensions
+Repositório Remote : github.com/HugoItaloMC/PythonEstudos/Sources/Comprehensions
 
 
 Python, versão :  3.10
@@ -19,27 +19,6 @@ iterável
         [dado for dado in iterável]
 
 
-.==============================================.
-|     " " " " " " " " " " " " " " " " " "      |
-|     "       Ordem alfabetica na       "      |
-|     "    declarassão de variáveis :   "      |
-|     "                                 "      |
-|     "            Examples :           "      |
-|     "                                 "      |
-|     "            a = ''               "      |
-|     "             b = 0               "      |
-|     "             c = True            "      |
-|     "                                 "      |
-|     "    Ordem válida para funcões    "      |
-|     "      e seus parametros :        "      |
-|     "                                 "      |
-|     "          Examples:              "      |
-|     "                                 "      |
-|     "       def d(da, db):            "      |
-|     "       return (da + db) * da     "      |
-|     " " " " " " " " " " " " " " " " " "      |
-.==============================================.
-
 
 """
 a = [1, 2, 3, 4, 5, 6]
@@ -51,8 +30,8 @@ print(a01)  # [0.5, 1.0, 1.5, 2.0, 2.5, 3.0]
 
 """
 Para entender melhor o que está acontecendo devemos dividir a expressão em 2 partes:
-    - 1) : for n in n
-    - 2) : n * 10
+     1) : for n in n
+     2) : n * 10
 """
 
 
@@ -89,6 +68,7 @@ print(f"{[letra.upper() for letra in nome]}")
 
 # 2
 
+
 def d(e):
     e = e.replace(e[0], e[0].upper())
     return e
@@ -102,4 +82,4 @@ print([d(n) for n in amigos])
 
 print([a * 3 for a in range(1, len(a)+1)])
 
-print([bool(n) for n in [0,'', [], True, 1, 14, 15.444]])
+print([bool(n) for n in [0, '', [], True, 1, 14, 15.444]])

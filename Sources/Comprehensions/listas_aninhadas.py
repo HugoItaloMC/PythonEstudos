@@ -18,27 +18,6 @@ linhas, formando uma matriz
     lista = [[1, 2, 3], [2, 3, 4, 5], [6, 5, 4, 3, 2], [1, 2, 3, 4]]
     print(lista[0][2])
 
-.==============================================.
-|     " " " " " " " " " " " " " " " " " "      |
-|     "       Ordem alfabetica na       "      |
-|     "    declarassão de variáveis :   "      |
-|     "                                 "      |
-|     "            Examples :           "      |
-|     "                                 "      |
-|     "            a = ''               "      |
-|     "             b = 0               "      |
-|     "             c = True            "      |
-|     "                                 "      |
-|     "    Ordem válida para funcões    "      |
-|     "      e seus parametros :        "      |
-|     "                                 "      |
-|     "          Examples:              "      |
-|     "                                 "      |
-|     "       def d(da, db):            "      |
-|     "       return (da + db) * da     "      |
-|     " " " " " " " " " " " " " " " " " "      |
-.==============================================.
-
 # Exemplos :
 
 a = [[1, 2, 3], [2, 3, 4, 5], [6, 5, 4, 3, 2], [1, 2, 3, 4]]
@@ -63,7 +42,6 @@ a = [[1, 2, 3], [2, 3, 4, 5], [6, 5, 4, 3, 2], [1, 2, 3, 4]]
 # 1
 
 [[print(b) for b in c] for c in a]
-
 
 
 # 2 - Gerando uma matriz

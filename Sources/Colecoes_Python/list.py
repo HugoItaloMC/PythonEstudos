@@ -11,14 +11,11 @@ será    SEMPRE  do tipo int SEMPRE  no máximo 5 valores.
  As listas em Python são representadas por colchetes:    '[]'
 """
 
-
-
 type([])  # Definicão de uma lista
 
 print(dir([]))  # Funcões e métodos que podemos ultilzar com uma list em Python
 
-
-#  Declaracões de diferentes listas.
+#  Declaracões de listas com diferentes tipos de dados.
 
 list1 = [1, 2, 3, 4, 54, 55, 63, 66, 77, 72, 88, 81, 99, 90, 100, 101]
 
@@ -30,7 +27,7 @@ list4 = list(range(11))
 
 list5 = ['Geek University']
 
-#  Mostrando no console que independente do dado armazenado o tipo ñ é alterado
+#  Mostrando no console que independente do dado armazenado o tipo do iterável ñ é alterado
 
 print(f"\nlist1=\t{list1}\n", f"variável list1 é do tipo de dado {type(list1)}\n\n",
       f"\nlist2=\t{list2}", f"variável lis12 é do tipo de dado {type(list)}\n\n",
@@ -49,7 +46,7 @@ else:
 
 print(f"{a}\n")
 
-# Conhecendo módulos para se ultilizar com tipo de dado list[]
+# Conhecendo módulos para se ultilizar com tipo de dado (list(), [])
 # .sort() : Ordena uma lista;
 # Exemplos:
 
@@ -63,28 +60,28 @@ print(f" {list1}\n", f"{list2}\n")
 
 # Exemplos:
 
-print(f" {list1.count(55)}\n",f"{list2.count('e')}\n")
+print(f" {list1.count(55)}\n", f"{list2.count('e')}\n")
 
 # Módulo append()
 # [].append() : Adiciona elementos em uma lista;
-# Módulo aceita uma insercão por vez (sublista), erro TypeError caso passe mais de um elemento
+# Módulo aceita uma insercão por vez (sublista), erro TypeError será gerado se  passado mais de um elemento
 # ** list1.append(11, 55, True, False) # TypeError **
 
 # Exemplos:
 
 print(list1)
 
-list1.append([11,22,33])
+list1.append([11, 22, 33])
 
 print(list1)
 
 # Módulo extend()
 # [].extend() : Adiciona elementos em uma lista;
-# Módulo adiciona elemento um a um como nova ocorrencia com novo valor
+# Módulo adiciona elemento um a um como nova ocorrencia com novo valor, podemos passar mais de um dado por ocorrência
 
 # Exemplos:
 
-list1.extend([10111,10100,11111,'10111','10100','11111'])
+list1.extend([10111, 10100, 11111, '10111', '10100', '11111'])
 
 list1.extend(['Geek'])
 
@@ -106,12 +103,11 @@ print(list1)
 já existentes, a partir da posicão declarada, serão alocadas uma casa a direita, não perdendo nem um dado.
 """
 
-
 # Juntando duas listas em uma
 
 # Exemplos:
 
-print(f"\n{list1+list2}")
+print(f"\n{list1 + list2}")
 
 list6 = list1 + list2
 
@@ -125,12 +121,12 @@ list2 = list2 + list1
 
 print(f"\n{list2}")
 
-
 # Revertendo uma list;
 
 # Exemplos:
 
-# Ultilizando .reverse()
+# Módulo reverse()
+# [].reverse() : reverte uma lista
 
 list1.reverse()
 
@@ -139,14 +135,16 @@ list2.reverse()
 print(f"\n{list1}",
       f"\n{list2}")
 
-# Ultilizando slice:
+# Método slice
+# Exemplos:
 
 print(f"\n{list1[::-1]}",
       f"\n{list2[::-1]}")
 
 # Copiando uma list
 
-# Ultilizando .copy():
+# Método copy()
+# variavel = [].copy()
 
 # Exemplo:
 
@@ -158,21 +156,25 @@ print(f"\n{list6}")
 
 # Contando elementos de uma lista:
 
-# Ultilizando len()
+# Método len()
+# [].len() conta o número de elementos de uma lista
+
+# Exemplos :
 
 print(f"\n {len(list6)} ocorrencias da 'list6'")
 
 # Removendo elementos de uma list
 
-# .pop() : este módulo retorna e remove o elemento passado
+# Método pop()
+# [].pop() : este módulo retorna e remove o elemento passado, como default ele remove o último elemento do iterável
+
 # Exemplo:
 
-print( f"\n{list6}", f"\nelemento: '{list6.pop()}' removido", f"\n{list6}",
-       f"\nelemento: '{list6.pop(2)}' removido", f"\n{list6}")  # Removendo elemento pela posicão do iterável
+print(f"\n{list6}", f"\nelemento: '{list6.pop()}' removido", f"\n{list6}",
+      f"\nelemento: '{list6.pop(2)}' removido", f"\n{list6}")  # Removendo elemento pela posicão do iterável
 
-# Removendo todos elementos de uma lista
-
-# .clear() : limpa uma list
+# Método clear()
+# [].clear() : Remove todos elementos de uma lista
 
 # Exemplo:
 
@@ -187,14 +189,16 @@ print(f"list6 = {list6} após ultilizar o método .clear()")
 
 list6 = [1, 2, 3]
 
-print(f"\nlist6 = [1,2,3] *3 = {list6*3}")  # O mesmo serve para strings, fazendo concatenacão.
+print(f"\nlist6 = [1,2,3] *3 = {list6 * 3}")  # O mesmo serve para strings, fazendo concatenacão.
 
-# Convertendo uma string em uma lit
+# Convertendo uma string em uma list
 
-# .split() : converte uma string a uma list
+
+# Método split()
+# exemplo = 'exemplo'.split() : converte uma string a uma list
 # OBS : por padrão o este método separa as palavras por ' ' espacos vázios, separador pode ser declarado
 
-# ExemploOBS: .split('/')  aqui o separador é a barra-invertida.
+# ExemploOBS: 'exemplo'.split('/')  aqui o separador é a barra-invertida.
 
 # Exemplo:
 
@@ -205,7 +209,9 @@ testestring = testestring.split()
 print(f"\n{type(testestring)}\t{testestring}")
 
 # Convertendo uma list em uma string
-# ' '.join() : altera uma list em uma string ultilizando ' ' como separador das strings
+
+# Método join()
+# exemplo = ' '.join([]) : altera uma list em uma string ultilizando ' ' como separador das strings
 
 # Exemplo
 
@@ -216,6 +222,7 @@ print(f"\n{type(testestring)}\t{testestring}\n")
 # Iterando em listas
 
 # Ultilizando estrutura for:
+
 # Exemplos:
 
 list1 = [1, 2, 3, 4, 54, 55, 63, 66, 77, 72, 88, 81, 99, 90, 100, 101]
@@ -228,12 +235,13 @@ print(f"\nlist1 =\t{list1}\nvariável list1 é do tipo de dado {type(list1)}\n\n
 soma = 0
 
 for elemento in list1:
-      print(f"{elemento}")
-      soma += elemento
+    print(f"{elemento}")
+    soma += elemento
 
 print(f"\n{soma} é a soma dos elementos de list1")
 
 # Ultilizando estrutura while:
+
 # Exemplo:
 
 carrinho = []
@@ -241,10 +249,10 @@ carrinho = []
 produto = ''
 
 while produto != 'sair':
-     print(f"\n Digite 'sair' para sair")
-     produto = input(": ")
-     if produto != 'sair':
-           carrinho.append(produto)
+    print(f"\n Digite 'sair' para sair")
+    produto = input(": ")
+    if produto != 'sair':
+        carrinho.append(produto)
 
 produto = ''
 
@@ -256,26 +264,26 @@ print(f"\nProdutos :\n{produto}")
 #          0         1         2         3        4
 cores = ['azul', 'amarelo', 'verde', 'branco', 'roxo']
 
-print(f"\n {cores[0]}",    # azul
-      f"\n {cores[1]}",    # amarelo
-      f"\n {cores[2]}",    # verde
-      f"\n {cores[3]}",    # branco
-      f"\n {cores[4]}")    # roxo
+print(f"\n {cores[0]}",  # azul
+      f"\n {cores[1]}",  # amarelo
+      f"\n {cores[2]}",  # verde
+      f"\n {cores[3]}",  # branco
+      f"\n {cores[4]}")  # roxo
 
 # Para entender os indices negativos, pense na lista como um circúlo onde o final se encontra com o comeco.
 # Exemplo :
 
-print(f"\n\n{cores[0]}",    # azul
-      f"\n {cores[-1]}",    # roxo
-      f"\n {cores[-2]}",    # branco
-      f"\n {cores[-3]}",    # verde
-      f"\n {cores[-4]}\n")    # amarelo
+print(f"\n\n{cores[0]}",  # azul
+      f"\n {cores[-1]}",  # roxo
+      f"\n {cores[-2]}",  # branco
+      f"\n {cores[-3]}",  # verde
+      f"\n {cores[-4]}\n")  # amarelo
 
-# Gerando um indice com estrutura for
+# Gerando um indice com estrutura for e o método enumerate()
 # Exemplo:
 
 for i, c in enumerate(cores):
-      print(f"| Posicão : [{i}] \t| dado : \t'{c}'  \t|")
+    print(f"| Posicão : [{i}] \t| dado : \t'{c}'  \t|")
 
 # Gerando um indice:
 # Exemplo:
@@ -297,43 +305,62 @@ print(f"\nlist1 =\t{list1}\nvariável list1 é do tipo de dado {type(list1)}\n",
 # Exemplo:
 
 print(f"\nindice : [{list1.index(4)}] onde se encontra o valor list1.index(4)",  # Em qual posicão está o valor '4'
-      f"\nindice : [{list2.index('y')}] onde se encontra o valor list2.index('y')", # Em qual posicão está a string 'y'
-      f"\n{list2.index('e', 8)}"  # Fazendo a busca dentro de um range, qual indice iniciar e qual parar, no exemplo, procure valor 'e' a partir do indice 8
+      f"\nindice : [{list2.index('y')}] onde se encontra o valor list2.index('y')",  # Em qual posicão está a string 'y'
+      f"\n{list2.index('e', 8)}"  # Fazendo a busca dentro de um range, qual indice iniciar e qual parar, no exemplo,
+      # procure valor 'e' a partir do indice 8
       f"\n{list2.index('e', 1, 14)}")  # Busque o valor 'e' entra o indice 1 até o 14
-# OBS :  Passado valor inexistente no método .index() será gerado 'ValueError' e em valores repetidos e retornado o primeiro indice
+# OBS :  Passado valor inexistente no método .index() será gerado 'ValueError'
+# Em valores repetidos e retornado o primeiro indice
 
-      # Revisando slicing:
+
+# Revisando slicing:
+
 # list[inicio:fim:passo] : list[1:100:2] -- inicie no indice 1 até o 100 de 2 em 2 passos.
+
 # range(inicio:fim:passo) : range(1, 101, 2) -- inicie um range em 1 até 100 de 2 em 2 passos
-            # Exemplos 'inicio' :
-print(f"\n{list1[1:]}") # Iniciando no indice 1 e retornando todos restantes
 
-            # Exemplos 'fim' :
-print(f"\n{list1[:2]}",     # Comeca em 0 e vai até o indice 2 -1
-      f"\n{list1[:10]}",    # Comeca em 0 e vai até o indice 10 -1
-      f"\n{list1[:15]}",    # Comeca em 0 e vai até o indice 15 -1
-      f"\n{list1[:5]}")     # Comeca em 0 e vai até o indice 5 -1
+# Exemplos 'inicio' :
 
-            # Exemplos 'passo' :
-print(f"\n{list1[1::2]}",     # Comeca em 1 vai até o final de 2 passos
-      f"\n{list1[::2]}\n")      # Comeca em 0 vai até o final de 2 passos
+print(f"\n{list1[1:]}")  # Iniciando no indice 1 e retornando todos restantes
 
-      # Invertendo valores de uma list
-            # Exemplo :
+# Exemplos 'fim' :
+
+print(f"\n{list1[:2]}",  # Comeca em 0 e vai até o indice 2 -1
+      f"\n{list1[:10]}",  # Comeca em 0 e vai até o indice 10 -1
+      f"\n{list1[:15]}",  # Comeca em 0 e vai até o indice 15 -1
+      f"\n{list1[:5]}")  # Comeca em 0 e vai até o indice 5 -1
+
+# Exemplos 'passo' :
+
+print(f"\n{list1[1::2]}",  # Comeca em 1 vai até o final de 2 passos
+      f"\n{list1[::2]}\n")  # Comeca em 0 vai até o final de 2 passos
+
+# Invertendo valores de uma list
+
+# Exemplo :
+
 stringteste = ['Teste', 'String']
 
 print(stringteste)
+
 stringteste[0], stringteste[1] = stringteste[1], stringteste[0]
+
 print(stringteste)
 
 stringteste.reverse()
+
 print(stringteste)
 
-      # Soma, Max valor, Min valor
-            # sum() : soma valores de uma list
-            # max() : retorna valor maximo da list
-            # min() : retorna o valor minimo da list
-                  # Exemplos :
+# Soma, Max valor, Min valor
+
+# sum() : soma valores de uma list
+
+# max() : retorna valor maximo da list
+
+# min() : retorna o valor minimo da list
+
+# Exemplos :
+
 print(f"\nsum(list1) = {sum(list1)}",
       f"\nmax(list1) = {max(list1)}",
       f"\nmin(list1) = {min(list1)}")

@@ -40,7 +40,7 @@ podemos passar a execucão da funcão para outras funcões.
 # Podemos declarar a funcão direto no print :
 # Exemplo :
 
-print(f"Rrtorno : {raiz_7() + 1}")  # -- Podemos fazer operacões junto com as funcões
+print(f"Rertorno : {raiz_7() + 1}")  # -- Podemos fazer operacões junto com as funcões
 
 print(f"Retorno : {raiz_7() + 1}\n")  # -- Podemos fazer operacões junto com as funcões
 
