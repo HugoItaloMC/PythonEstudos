@@ -6,5 +6,5 @@ Faca um programa que receba do usuário um arquivo de texto e mostre quantas lin
 n = input('Digite path (caminho/nome) do arquivo: ')
 if n == 'arq.txt':  # Verificando se arquivo existe
     with open('arq.txt', 'r+') as arq:  # Abrindo arquivo
-        arqLen = len(arq.readlines())  # Processando quantidade de linhas do arquivo
-        print(arqLen, f"Linha(s)")  # Retornando quantidade de linhas do arquivo.
+        arq = len(arq.readlines())  # Processando quantidade de linhas do arquivo
+        print(arq, f"Linha(s)")  # Retornando quantidade de linhas do arquivo.

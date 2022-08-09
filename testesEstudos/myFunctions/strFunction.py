@@ -38,7 +38,7 @@ def scan_vogais(iteravel):
     vogais = 'aeiou'  # condicão da ocorrência
     for i in vogais:  # Indexando condicão de ocorrência
         if i in iteravel:  # Criando caso recursivo
-            result[i] = iteravel.count(i)  # recursividade no iterador
+            result[i] = iteravel.count(i)  # recursividade no iteravel
     return result  # retornando ocorrências alocadas
 
 

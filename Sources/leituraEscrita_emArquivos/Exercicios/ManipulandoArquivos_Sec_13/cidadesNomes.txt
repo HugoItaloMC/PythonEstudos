@@ -1,0 +1,326 @@
+São Paulo  São Paulo 
+Rio de Janeiro  Rio de Janeiro 
+Brasília  Distrito Federal 
+Salvador Bahia Bahia 
+Fortaleza  Ceará 
+Belo Horizonte  Minas Gerais 
+Manaus  Amazonas 
+Curitiba  Paraná 
+Recife  Pernambuco 
+Goiânia  Goiás 
+Belém Pará Pará 
+Porto Alegre  Rio Grande do Sul 
+Guarulhos  São Paulo 
+Campinas  São Paulo 
+São Luís  Maranhão 
+São Gonçalo  Rio de Janeiro 
+Maceió  Alagoas 
+Duque de Caxias  Rio de Janeiro 
+Campo Grande  Mato Grosso do Sul 
+Natal  Rio Grande do Norte 
+Teresina  Piauí 
+São Bernardo do Campo  São Paulo 
+Nova Iguaçu  Rio de Janeiro 
+João Pessoa  Paraíba 
+São José dos Campos  São Paulo 
+Santo André  São Paulo 
+Ribeirão Preto  São Paulo 
+Jaboatão dos Guararapes  Pernambuco 
+Osasco  São Paulo 
+Uberlândia  Minas Gerais 
+Sorocaba  São Paulo 
+Contagem  Minas Gerais 
+Aracaju  Sergipe 
+Feira de Santana Bahia Bahia 
+Cuiabá  Mato Grosso 
+Joinville  Santa Catarina 
+Aparecida de Goiânia  Goiás 
+Londrina  Paraná 
+Juiz de Fora  Minas Gerais 
+Porto Velho  Rondônia 
+Ananindeua Pará Pará 
+Serra  Espírito Santo 
+Caxias do Sul  Rio Grande do Sul 
+Niterói  Rio de Janeiro 
+Belford Roxo  Rio de Janeiro 
+Macapá  Amapá 
+Campos dos Goytacazes Campos dos Goytacazes  Rio de Janeiro 
+Florianópolis  Santa Catarina 
+Vila Velha  Espírito Santo 
+Mauá  São Paulo 
+São João de Meriti  Rio de Janeiro 
+São José do Rio Preto  São Paulo 
+Mogi das Cruzes  São Paulo 
+Betim  Minas Gerais 
+Santos  São Paulo 
+Maringá  Paraná 
+Diadema  São Paulo 
+Jundiaí  São Paulo 
+Boa Vista  Roraima 
+Montes Claros  Minas Gerais 
+Rio Branco  Acre 
+Campina Grande  Paraíba 
+Piracicaba  São Paulo 
+Carapicuíba  São Paulo 
+Olinda  Pernambuco 
+Anápolis  Goiás 
+Cariacica  Espírito Santo 
+Bauru  São Paulo 
+Itaquaquecetuba  São Paulo 
+São Vicente  São Paulo 
+Vitória  Espírito Santo 
+Caruaru  Pernambuco 
+Caucaia  Ceará 
+Blumenau  Santa Catarina 
+Franca  São Paulo 
+Ponta Grossa  Paraná 
+Petrolina  Pernambuco 
+Canoas  Rio Grande do Sul 
+Pelotas  Rio Grande do Sul 
+Vitória da Conquista Bahia Bahia 
+Ribeirão das Neves  Minas Gerais 
+Uberaba  Minas Gerais 
+Paulista  Pernambuco 
+Cascavel  Paraná 
+Praia Grande  São Paulo 
+São José dos Pinhais  Paraná 
+Guarujá  São Paulo 
+Taubaté  São Paulo 
+Limeira  São Paulo 
+Petrópolis  Rio de Janeiro 
+Santarém Pará Pará 
+Palmas  Tocantins 
+Camaçari Bahia Bahia 
+Mossoró  Rio Grande do Norte 
+Suzano  São Paulo 
+Taboão da Serra  São Paulo 
+Várzea Grande  Mato Grosso 
+Sumaré  São Paulo 
+Santa Maria  Rio Grande do Sul 
+Gravataí  Rio Grande do Sul 
+Marabá Pará Pará 
+Governador Valadares  Minas Gerais 
+Barueri  São Paulo 
+Embu das Artes  São Paulo 
+Juazeiro do Norte  Ceará 
+Volta Redonda  Rio de Janeiro 
+ Parnamirim  Rio Grande do Norte 
+Ipatinga  Minas Gerais 
+Macaé  Rio de Janeiro 
+Imperatriz  Maranhão 
+Foz do Iguaçu  Paraná 
+Viamão  Rio Grande do Sul 
+Indaiatuba  São Paulo 
+São Carlos  São Paulo 
+Cotia  São Paulo 
+São José  Santa Catarina 
+Novo Hamburgo  Rio Grande do Sul 
+Colombo  Paraná 
+Magé  Rio de Janeiro 
+Itaboraí  Rio de Janeiro 
+Americana  São Paulo 
+Sete Lagoas  Minas Gerais 
+Rio Verde  Goiás 
+Itapevi  São Paulo 
+Marília  São Paulo 
+Divinópolis  Minas Gerais 
+São Leopoldo  Rio Grande do Sul 
+Araraquara  São Paulo 
+Rondonópolis  Mato Grosso 
+Jacareí  São Paulo 
+Hortolândia  São Paulo 
+Arapiraca  Alagoas 
+Cabo Frio  Rio de Janeiro 
+Presidente Prudente  São Paulo 
+Maracanaú  Ceará 
+ Dourados  Mato Grosso do Sul 
+    Chapecó  Santa Catarina 
+Itajaí  Santa Catarina 
+Santa Luzia  Minas Gerais 
+Juazeiro Bahia Bahia 
+Águas Lindas de Goiás  Goiás 
+Criciúma  Santa Catarina 
+Itabuna Bahia Bahia 
+Parauapebas Pará Pará 
+Bandeira de Rio Grande (Rio Grande do Sul) Rio Grande  Rio Grande do Sul 
+Luziânia  Goiás 
+Alvorada  Rio Grande do Sul 
+Sobral  Ceará 
+Cachoeiro de Itapemirim  Espírito Santo 
+Cabo de Santo Agostinho  Pernambuco 
+Rio Claro  São Paulo 
+Angra dos Reis  Rio de Janeiro 
+Passo Fundo  Rio Grande do Sul 
+Castanhal Pará Pará 
+Lauro de Freitas Bahia Bahia 
+Araçatuba  São Paulo 
+Ferraz de Vasconcelos  São Paulo 
+Santa Bárbara d'Oeste  São Paulo 
+Nova Friburgo  Rio de Janeiro 
+Nossa Senhora do Socorro  Sergipe 
+Barra Mansa  Rio de Janeiro 
+Teresópolis  Rio de Janeiro 
+Araguaína  Tocantins 
+Guarapuava  Paraná 
+Ibirité  Minas Gerais 
+Jaraguá do Sul  Santa Catarina 
+São José de Ribamar  Maranhão 
+Itapecerica da Serra  São Paulo 
+Francisco Morato  São Paulo 
+Linhares  Espírito Santo 
+Mesquita  Rio de Janeiro 
+Itu  São Paulo 
+Palhoça  Santa Catarina 
+Valparaíso de Goiás  Goiás 
+Bragança Paulista  São Paulo 
+Timon  Maranhão 
+Pindamonhangaba  São Paulo 
+Poços de Caldas  Minas Gerais 
+Itapetininga  São Paulo 
+Caxias  Maranhão 
+Maricá  Rio de Janeiro 
+Nilópolis  Rio de Janeiro 
+Teixeira de Freitas Bahia Bahia 
+São Caetano do Sul  São Paulo 
+Ilhéus Bahia Bahia 
+Abaetetuba Pará Pará 
+Camaragibe  Pernambuco 
+Lages  Santa Catarina 
+Barreiras Bahia Bahia 
+Franco da Rocha  São Paulo 
+Paranaguá  Paraná 
+Jequié Bahia Bahia 
+Rio das Ostras  Rio de Janeiro 
+Patos de Minas  Minas Gerais 
+Parnaíba  Piauí 
+Mogi Guaçu  São Paulo 
+Pouso Alegre  Minas Gerais 
+Alagoinhas Bahia Bahia 
+Jaú  São Paulo 
+Queimados  Rio de Janeiro 
+Porto Seguro Bahia Bahia 
+Botucatu  São Paulo 
+    Araucária  Paraná 
+ Sinop  Mato Grosso 
+Balneário Camboriú  Santa Catarina 
+Atibaia  São Paulo 
+Toledo  Paraná 
+Santana de Parnaíba  São Paulo 
+Sapucaia do Sul  Rio Grande do Sul 
+Teófilo Otoni  Minas Gerais 
+Garanhuns  Pernambuco 
+Vitória de Santo Antão  Pernambuco 
+Cametá Pará Pará 
+Barbacena  Minas Gerais 
+Brusque  Santa Catarina 
+Santa Rita  Paraíba 
+Sabará  Minas Gerais 
+Varginha  Minas Gerais 
+Apucarana  Paraná 
+Simões Filho Bahia Bahia 
+Araras  São Paulo 
+Itaguaí  Rio de Janeiro 
+Araruama  Rio de Janeiro 
+Campo Largo  Paraná 
+Marituba Pará Pará 
+Pinhais  Paraná 
+Crato  Ceará 
+São Mateus  Espírito Santo 
+Resende  Rio de Janeiro 
+Bandeira de São Félix do Xingu.gif São Félix do Xingu Pará Pará 
+Cubatão  São Paulo 
+Santa Cruz do Sul  Rio Grande do Sul 
+Cachoeirinha  Rio Grande do Sul 
+Valinhos  São Paulo 
+Itapipoca  Ceará 
+Maranguape  Ceará 
+Ji-Paraná  Rondônia 
+Trindade  Goiás 
+Vespasiano  Minas Gerais 
+Conselheiro Lafaiete  Minas Gerais 
+Bragança Pará Pará 
+Sertãozinho  São Paulo 
+Barcarena Pará Pará 
+Uruguaiana  Rio Grande do Sul 
+Guarapari  Espírito Santo 
+Jandira  São Paulo 
+Birigui  São Paulo 
+Arapongas  Paraná 
+Ribeirão Pires  São Paulo 
+Paço do Lumiar  Maranhão 
+Formosa  Goiás 
+Votorantim  São Paulo 
+Colatina  Espírito Santo 
+Caraguatatuba  São Paulo 
+ Três Lagoas  Mato Grosso do Sul 
+Codó  Maranhão 
+Santana  Amapá 
+Várzea Paulista  São Paulo 
+Tatuí  São Paulo 
+Barretos  São Paulo 
+Itatiba  São Paulo 
+Guaratinguetá  São Paulo 
+Catanduva  São Paulo 
+Bento Gonçalves  Rio Grande do Sul 
+Bagé  Rio Grande do Sul 
+Itabira  Minas Gerais 
+Almirante Tamandaré  Paraná 
+Salto  São Paulo 
+Paulo Afonso Bahia Bahia 
+Senador Canedo  Goiás 
+Igarassu  Pernambuco 
+Poá  São Paulo 
+Araguari  Minas Gerais 
+Novo Gama  Goiás 
+Ubá  Minas Gerais 
+Altamira Pará Pará 
+Parintins  Amazonas 
+Passos  Minas Gerais 
+Tucuruí Pará Pará 
+Piraquara  Paraná 
+Paragominas Pará Pará 
+Eunápolis Bahia Bahia 
+Ourinhos  São Paulo 
+São Lourenço da Mata  Pernambuco 
+Açailândia  Maranhão 
+Umuarama  Paraná 
+ Corumbá  Mato Grosso do Sul 
+Paulínia  São Paulo 
+Catalão  Goiás 
+Coronel Fabriciano  Minas Gerais 
+Santa Cruz do Capibaribe  Pernambuco 
+Ariquemes  Rondônia 
+Muriaé  Minas Gerais 
+Tailândia Pará Pará 
+Patos  Paraíba 
+Cambé  Paraná 
+Araxá  Minas Gerais 
+Erechim  Rio Grande do Sul 
+Tubarão  Santa Catarina 
+São Pedro da Aldeia  Rio de Janeiro 
+Itumbiara  Goiás 
+ Tangará da Serra  Mato Grosso 
+Japeri  Rio de Janeiro 
+Nova Serrana  Minas Gerais 
+Ituiutaba  Minas Gerais 
+Lagarto  Sergipe 
+Assis  São Paulo 
+Bacabal  Maranhão 
+Lavras  Minas Gerais 
+Leme  São Paulo 
+Itaperuna  Rio de Janeiro 
+ São Gonçalo do Amarante  Rio Grande do Norte 
+Breves Pará Pará 
+Itanhaém  São Paulo 
+Aracruz  Espírito Santo 
+Iguatu  Ceará 
+Caieiras  São Paulo 
+Itacoatiara  Amazonas 
+Santo Antônio de Jesus Bahia Bahia 
+Vilhena  Rondônia 
+Jataí  Goiás 
+Fazenda Rio Grande  Paraná 
+Mairiporã  São Paulo 
+Itaituba Pará Pará 
+Barra do Piraí  Rio de Janeiro 
+Abreu e Lima  Pernambuco 

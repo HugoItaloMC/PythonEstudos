@@ -13,32 +13,26 @@
 # Bloco criacão de funcões
 
 
-def change_string(iteravel):
+def change_string(itr, put, change):
     """
-      Mudando strings
-
-    :param iteravel: Recebe um iterável do usuário, usuário passa ocorrência e o substituto da ocorrência
-    também é passado pelo usuário.
-
+    :param itr: Parametro de entrada de iterável passado pelo usuário
+    :param put: Parametro de busca de ocorrência dentro do iterável
+    :param change: Parametro de substituicão de ocorrência feita pelo usuário
+    :return: Um iterável local após processamentos da funcão
     """
-    iteravel = iteravel.read()
-    iteravel = iteravel.upper()
-    after = open('arq2.txt', 'w+')
-    put = input('Digite ocorrência : ')
-    change = input('Digite substituicão da ocorrência : ')
-    for line in iteravel:
-        after.write(line.replace(f"{put}", f"{change}"))
+    after = []
+    for line in itr:
+        after.append(line.replace(f"{put}", f"{change}"))
+    print(after)
 
 
 def upper_string(iteravel):
-    return lambda x: x.up
+    return iteravel.upper()
 
 # bloco de execucão do main para testes das funcões do módulo Python
 
 
 if __name__ == '__main__':
-    lista = ['ola', 'tudo bem']
-
-    for n1 in lista:
-        if lista[n1] == 'aeiou':
-            print(n1.upper(), end=' ,')
+    iteravel = ["Tweet's", 'Chat', 'Tchau', 'OLA']
+    change_string(iteravel, f"{input('Digite Ocorrência : ').lower()}",
+                            f"{input('Digite Substituicão da ocorrência : ').lower()}")
