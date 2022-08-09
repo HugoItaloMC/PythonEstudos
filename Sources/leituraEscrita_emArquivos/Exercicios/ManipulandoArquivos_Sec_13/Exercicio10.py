@@ -14,10 +14,10 @@ cidadesNomes = list(filter(lambda size: len(size) > 0, cidadesNomes))
 cidadesNomes = ''.join(cidadesNomes)
 print(cidadesNomes)
 
-cidadesPopulacao = [line for line in arq2.split('\n')]
+cidadesPopulacao = [line for line in arq2.split()]
 cidadesPopulacao = list(filter(lambda size: len(size) > 0, cidadesPopulacao))
-#cidadesPopulacao = ' '.join(cidadesPopulacao)
+#  cidadesPopulacao = ' '.join(cidadesPopulacao)
 
-for line in cidadesPopulacao:
-    if line <= cidadesPopulacao:
-        print(line)
+
+c = {cidadesNomes.split('\n')[d]: cidadesPopulacao[d] for d in range(0, len(cidadesPopulacao))}
+
