@@ -61,3 +61,5 @@ for a in c: print(a)
 
 print([['*' for a in range(1, 5)] for b in range(1, 5)])
 """
+b = [[a for a in range(1, 4)] for b in range(1, 4)]
+print(b)

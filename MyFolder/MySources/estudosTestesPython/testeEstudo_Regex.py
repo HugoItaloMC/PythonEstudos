@@ -354,7 +354,7 @@ stringArgsCopy = cp.copy(stringArgs)  # Shallow Copy
 
 
 # Módulo compile():
-# compile() => Módulo compile compila sua expressão regular para um objeto
+# compile() => Módulo compile; compila sua expressão regular para um objeto
 #  Ex : reg = rgx.compile(r'[^0-9]|áéíóúãẽĩõũàèìòù\,\.\/\]\[\}\{|[\t\n\s\f\b]'); reg.search(stringArgs)
 
 
