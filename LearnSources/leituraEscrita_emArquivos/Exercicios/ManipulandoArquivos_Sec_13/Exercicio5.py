@@ -6,7 +6,7 @@ aquele caractere ocorre dentro do arquivo
 
 # Realizando import
 
-from testesEstudos.myFunctions import strFunction as stFun
+from MyFolder.MySources.myFunctions import strFunction as stFun
 
 n = f"{input('Digite caminho/nome do arquivo : ')}"
 

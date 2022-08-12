@@ -6,7 +6,7 @@ quantas letras são consoantes.
 
 # Realizando imports
 
-from testesEstudos.myFunctions import strFunction as stFun
+from MyFolder.MySources.myFunctions import strFunction as stFun
 
 n = input('Digite path (caminho/nome) do arquivo: ')
 if n == 'arq.txt':

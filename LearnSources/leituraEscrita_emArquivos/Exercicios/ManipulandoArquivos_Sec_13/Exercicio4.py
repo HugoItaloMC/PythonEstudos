@@ -6,7 +6,7 @@ Receba do usuário arquivo de texto, e verifique quantas letras são vogais e qu
 
 # Realizando imports
 
-from testesEstudos.myFunctions import strFunction as stFun
+from MyFolder.MySources.myFunctions import strFunction as stFun
 
 n = input('Digite path (caminho/nome) do arquivo: ')
 if n == 'arq.txt':

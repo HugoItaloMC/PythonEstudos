@@ -10,7 +10,7 @@ import os
 print(os.path.exists('teste.txt'))  # True
 print(os.path.exists('arquivo.txt'))  # False
 
-print(os.path.exists('/home/correia/PycharmProjects/PythonEstudos/Sources')) # True
+print(os.path.exists('/learnSources')) # True
 
 # Criando arquivos
 
