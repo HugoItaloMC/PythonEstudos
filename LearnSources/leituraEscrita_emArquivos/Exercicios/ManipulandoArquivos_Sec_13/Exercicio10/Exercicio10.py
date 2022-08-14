@@ -3,8 +3,6 @@
 linha do nome de uma cidade e o seu número de habitantes (ocupando 40 caracteres). O programa devera ler o arquivo
 gerar o arquivo de saída o onde aparece o nome da cidade mais populosa.
 
-
-
 """
 
 import re as rgx
@@ -19,14 +17,14 @@ if __name__ == '__main__':
                 #  Implementando padrões, descartando caracteres que ñ são padrões no arquivo
 
                 # Retorna Alfanumericos, extensões de img, '\t' (tablatura) e ignora cases:
-                reg_subLit = rgx.compile(r'[0-9\t]+|.*svg|.*png|.*gif|.*jpg', flags=rgx.IGNORECASE)
+                reg_putLit = rgx.compile(r'[0-9\t]+|.*svg|.*png|.*gif|.*jpg', flags=rgx.IGNORECASE)
 
                 # Retorna tudo que ñ for alfanúmerico e os caracter vazio '\n' (quebra-linha):
-                reg_subAlf = rgx.compile(r'[^0-9 \n]?')
+                reg_putAlf = rgx.compile(r'[^0-9 \n]?')
 
                 # Tratamento com Regex no arquivo
-                dataCitysNames = rgx.sub(reg_subLit, '', dataCitys)  # Armazenando somente literais padrões
-                dataCitysPeople = rgx.sub(reg_subAlf, '', dataCitys)  # Armazenando somente alfanúmericos
+                dataCitysNames = rgx.sub(reg_putLit, '', dataCitys)  # Armazenando somente literais padrões
+                dataCitysPeople = rgx.sub(reg_putAlf, '', dataCitys)  # Armazenando somente alfanúmericos padrões
 
                 # Tratamentos específicos levantado no arquivo de saída para alfanúmericos e literais
                 dataCitysNamesList = [line for line in dataCitysNames.split('\n')]
@@ -35,14 +33,27 @@ if __name__ == '__main__':
                                       for line in dataCitysPeople.split('\n') if not line == ''
                                       ]
                 dataCityPeopleList = list(map(int, dataCityPeopleList))
-                dataCityExit = {dataCitysNamesList[line]: dataCityPeopleList[int(line)]
-                                for line in range(0, len(dataCityPeopleList))
-                                if len(dataCitysNamesList[line]) < 40
-                                }
-                print(max(dataCityExit.values()))
+                dataCityObj = {dataCitysNamesList[line]: dataCityPeopleList[line]
+                               for line in range(0, len(dataCityPeopleList))
+                               if len(dataCitysNamesList[line]) < 40
+                               }
+                dataCityExit = dataCityObj[max(dataCityObj, key=dataCityObj.get)]
+                for key, value in dataCityObj.items():
+                    if dataCityExit == value:
+                        try:
+                            with open(f"{input('Digite nome do arquivo de saído : ')}.txt", "w+") as dataCityAfter:
+                                if len(dataCityAfter.read()) == 0:
+                                    dataCityAfter.write(f" Há Cidade de{key[:11:1]}"
+                                                        f"é a cidade com maior numero de hábitantes"
+                                                        f"\ncom {dataCityExit} de habitantes")
+                                else:
+                                    print(f"Error ## O arquivo não está vázio")
+                        except (TypeError, ValueError, OSError, FileExistsError, FileNotFoundError, SyntaxError,
+                                IndentationError, AttributeError) as err:
+                            print(f"Erro ## {err}")
             else:
                 print(f"Err ### Arquivo vázio")
-    except (TypeError, ValueError, OSError, FileExistsError, FileNotFoundError, SyntaxError) as err:
+    except (TypeError, ValueError, OSError, FileExistsError, FileNotFoundError, SyntaxError, AttributeError) as err:
         print(f"Erro ## {err}")
 
 """

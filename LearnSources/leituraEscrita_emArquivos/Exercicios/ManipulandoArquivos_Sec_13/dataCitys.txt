@@ -1,0 +1,326 @@
+1 	São Paulo 	 São Paulo 	12 325 232
+2 	Rio de Janeiro 	 Rio de Janeiro 	6 747 815
+3 	Brasília 	 Distrito Federal 	3 055 149
+4 	 Salvador 	Bahia Bahia 	2 886 698
+5 	Fortaleza 	 Ceará 	2 686 612
+6 	Belo Horizonte 	 Minas Gerais 	2 521 564
+7 	Manaus 	 Amazonas 	2 219 580
+8 	Curitiba 	 Paraná 	1 948 626
+9 	Recife 	 Pernambuco 	1 653 461
+10 	Goiânia 	 Goiás 	1 536 097
+11 	Belém 	Pará Pará 	1 499 641
+12 	Porto Alegre 	 Rio Grande do Sul 	1 488 252
+13 	Guarulhos 	 São Paulo 	1 392 121
+14 	Campinas 	 São Paulo 	1 213 792
+15 	São Luís 	 Maranhão 	1 108 975
+16 	São Gonçalo 	 Rio de Janeiro 	1 091 737
+17 	Maceió 	 Alagoas 	1 025 360
+18 	Duque de Caxias 	 Rio de Janeiro 	924 624
+19 	Bandeira de Campo Grande.svg Campo Grande 	 Mato Grosso do Sul 	906 092
+20 	 Natal 	 Rio Grande do Norte 	890 480
+21 	Teresina 	 Piauí 	868 075
+22 	São Bernardo do Campo 	 São Paulo 	844 483
+23 	Nova Iguaçu 	 Rio de Janeiro 	823 302
+24 	João Pessoa 	 Paraíba 	817 511
+25 	São José dos Campos 	 São Paulo 	729 737
+26 	Santo André 	 São Paulo 	721 368
+27 	Ribeirão Preto 	 São Paulo 	711 825
+28 	Jaboatão dos Guararapes 	 Pernambuco 	706 867
+29 	Osasco 	 São Paulo 	699 944
+30 	Uberlândia 	 Minas Gerais 	699 097
+31 	Sorocaba 	 São Paulo 	687 357
+32 	Contagem 	 Minas Gerais 	668 949
+33 	Aracaju 	 Sergipe 	664 908
+34 	Feira de Santana 	Bahia Bahia 	619 609
+35 	Cuiabá 	 Mato Grosso 	618 124
+36 	Joinville 	 Santa Catarina 	597 658
+37 	Aparecida de Goiânia 	 Goiás 	590 146
+38 	Londrina 	 Paraná 	575 377
+39 	Juiz de Fora 	 Minas Gerais 	573 285
+40 	Porto Velho 	 Rondônia 	539 354
+41 	Ananindeua 	Pará Pará 	535 547
+42 	Serra 	 Espírito Santo 	527 240
+43 	Caxias do Sul 	 Rio Grande do Sul 	517 451
+44 	Niterói 	 Rio de Janeiro 	515 317
+45 	Belford Roxo 	 Rio de Janeiro 	513 118
+46 	Macapá 	 Amapá 	512 902
+47 	Campos dos Goytacazes Campos dos Goytacazes 	 Rio de Janeiro 	511 168
+48 	Florianópolis 	 Santa Catarina 	508 826
+49 	Vila Velha 	 Espírito Santo 	501 325
+50 	Mauá 	 São Paulo 	477 552
+51 	São João de Meriti 	 Rio de Janeiro 	472 906
+52 	São José do Rio Preto 	 São Paulo 	464 983
+53 	Mogi das Cruzes 	 São Paulo 	450 785
+54 	Betim 	 Minas Gerais 	444 784
+55 	Santos 	 São Paulo 	433 656
+56 	Maringá 	 Paraná 	430 157
+57 	Diadema 	 São Paulo 	426 757
+58 	Jundiaí 	 São Paulo 	423 006
+59 	Boa Vista 	 Roraima 	419 652
+60 	Montes Claros 	 Minas Gerais 	413 487
+61 	Rio Branco 	 Acre 	413 418
+62 	Campina Grande 	 Paraíba 	411 807
+63 	Piracicaba 	 São Paulo 	407 252
+64 	Carapicuíba 	 São Paulo 	403 183
+65 	Olinda 	 Pernambuco 	393 115
+66 	Anápolis 	 Goiás 	391 772
+67 	Cariacica 	 Espírito Santo 	383 917
+68 	Bauru 	 São Paulo 	379 297
+69 	Itaquaquecetuba 	 São Paulo 	375 011
+70 	São Vicente 	 São Paulo 	368 355
+71 	Vitória 	 Espírito Santo 	365 855
+72 	Caruaru Flag.png Caruaru 	 Pernambuco 	365 278
+73 	Caucaia 	 Ceará 	365 212
+74 	Blumenau 	 Santa Catarina 	361 855
+75 	Franca 	 São Paulo 	355 901
+76 	Ponta Grossa 	 Paraná 	355 336
+77 	Petrolina 	 Pernambuco 	354 317
+78 	Canoas 	 Rio Grande do Sul 	348 208
+79 	Pelotas 	 Rio Grande do Sul 	343 132
+80 	Vitória da Conquista 	Bahia Bahia 	341 128
+81 	Ribeirão das Neves 	 Minas Gerais 	338 197
+82 	Uberaba 	 Minas Gerais 	337 092
+83 	Paulista 	 Pernambuco 	334 376
+84 	Cascavel 	 Paraná 	332 333
+85 	Praia Grande 	 São Paulo 	330 845
+86 	São José dos Pinhais 	 Paraná 	329 058
+87 	Guarujá 	 São Paulo 	322 750
+88 	Taubaté 	 São Paulo 	317 915
+89 	Limeira 	 São Paulo 	308 482
+90 	Petrópolis 	 Rio de Janeiro 	306 678
+91 	Santarém 	Pará Pará 	306 480
+92 	Palmas 	 Tocantins 	306 296
+93 	Camaçari 	Bahia Bahia 	304 302
+94 	 Mossoró 	 Rio Grande do Norte 	300 618
+95 	Suzano 	 São Paulo 	300 559
+96 	Taboão da Serra 	 São Paulo 	293 652
+97 	Várzea Grande 	 Mato Grosso 	287 526
+98 	Sumaré 	 São Paulo 	286 211
+99 	Santa Maria 	 Rio Grande do Sul 	283 677
+100 	Gravataí 	 Rio Grande do Sul 	283 620
+101 	Marabá 	Pará Pará 	283 542
+102 	Governador Valadares 	 Minas Gerais 	281 046
+103 	Barueri 	 São Paulo 	276 982
+104 	Embu das Artes 	 São Paulo 	276 535
+105 	Juazeiro do Norte 	 Ceará 	276 264
+106 	Volta Redonda 	 Rio de Janeiro 	273 988
+107 	 Parnamirim 	 Rio Grande do Norte 	267 036
+108 	Ipatinga 	 Minas Gerais 	265 409
+109 	Macaé 	 Rio de Janeiro 	261 501
+110 	Imperatriz 	 Maranhão 	259 337
+111 	Foz do Iguaçu 	 Paraná 	258 248
+112 	Viamão 	 Rio Grande do Sul 	256 302
+113 	Indaiatuba 	 São Paulo 	256 223
+114 	São Carlos 	 São Paulo 	254 484
+115 	Cotia 	 São Paulo 	253 608
+116 	São José 	 Santa Catarina 	250 181
+117 	Novo Hamburgo 	 Rio Grande do Sul 	247 032
+118 	Colombo 	 Paraná 	246 540
+119 	Magé 	 Rio de Janeiro 	246 433
+120 	Itaboraí 	 Rio de Janeiro 	242 543
+121 	Americana 	 São Paulo 	242 018
+122 	Sete Lagoas 	 Minas Gerais 	241 835
+123 	Rio Verde 	 Goiás 	241 518
+124 	Itapevi 	 São Paulo 	240 961
+125 	Marília 	 São Paulo 	240 590
+126 	Divinópolis 	 Minas Gerais 	240 408
+127 	São Leopoldo 	 Rio Grande do Sul 	238 648
+128 	Araraquara 	 São Paulo 	238 339
+129 	Rondonópolis 	 Mato Grosso 	236 042
+130 	Jacareí 	 São Paulo 	235 416
+131 	Hortolândia 	 São Paulo 	234 259
+132 	Arapiraca 	 Alagoas 	233 047
+133 	Cabo Frio 	 Rio de Janeiro 	230 378
+134 	Presidente Prudente 	 São Paulo 	230 371
+135 	Maracanaú 	 Ceará 	229 458
+136 	 Dourados 	 Mato Grosso do Sul 	225 495
+137 	Bandeira de chapeco.svg Chapecó 	 Santa Catarina 	224 013
+138 	Itajaí 	 Santa Catarina 	223 112
+139 	Santa Luzia 	 Minas Gerais 	220 444
+140 	Juazeiro 	Bahia Bahia 	218 162
+141 	Águas Lindas de Goiás 	 Goiás 	217 698
+142 	Criciúma 	 Santa Catarina 	217 311
+143 	Itabuna 	Bahia Bahia 	213 685
+144 	Parauapebas 	Pará Pará 	213 576
+145 	Bandeira de Rio Grande (Rio Grande do Sul).jpg Rio Grande 	 Rio Grande do Sul 	211 965
+146 	Luziânia 	 Goiás 	211 508
+147 	Alvorada 	 Rio Grande do Sul 	211 352
+148 	Sobral 	 Ceará 	210 711
+149 	Cachoeiro de Itapemirim 	 Espírito Santo 	210 589
+150 	Cabo de Santo Agostinho 	 Pernambuco 	208 944
+151 	Rio Claro 	 São Paulo 	208 008
+152 	Angra dos Reis 	 Rio de Janeiro 	207 044
+153 	Passo Fundo 	 Rio Grande do Sul 	204 722
+154 	Castanhal 	Pará Pará 	203 251
+155 	Lauro de Freitas 	Bahia Bahia 	201 635
+156 	Araçatuba 	 São Paulo 	198 129
+157 	Ferraz de Vasconcelos 	 São Paulo 	196 500
+158 	Santa Bárbara d'Oeste 	 São Paulo 	194 390
+159 	Nova Friburgo 	 Rio de Janeiro 	191 158
+160 	Nossa Senhora do Socorro 	 Sergipe 	185 706
+161 	Barra Mansa 	 Rio de Janeiro 	184 833
+162 	Teresópolis 	 Rio de Janeiro 	184 240
+163 	Araguaína 	 Tocantins 	183 381
+164 	Guarapuava 	 Paraná 	182 644
+165 	Ibirité 	 Minas Gerais 	182 153
+166 	Jaraguá do Sul 	 Santa Catarina 	181 173
+167 	São José de Ribamar 	 Maranhão 	179 028
+168 	Itapecerica da Serra 	 São Paulo 	177 662
+169 	Francisco Morato 	 São Paulo 	177 633
+170 	Linhares 	 Espírito Santo 	176 688
+171 	Mesquita 	 Rio de Janeiro 	176 569
+172 	Itu 	 São Paulo 	175 568
+173 	Palhoça 	 Santa Catarina 	175 272
+174 	Valparaíso de Goiás 	 Goiás 	172 135
+175 	Bragança Paulista 	 São Paulo 	170 533
+176 	Timon 	 Maranhão 	170 222
+177 	Pindamonhangaba 	 São Paulo 	170 132
+178 	Poços de Caldas 	 Minas Gerais 	168 641
+179 	Itapetininga 	 São Paulo 	165 526
+180 	Caxias 	 Maranhão 	165 525
+181 	Maricá 	 Rio de Janeiro 	164 504
+182 	Nilópolis 	 Rio de Janeiro 	162 693
+183 	Teixeira de Freitas 	Bahia Bahia 	162 438
+184 	São Caetano do Sul 	 São Paulo 	161 957
+185 	Ilhéus 	Bahia Bahia 	159 923
+186 	Abaetetuba 	Pará Pará 	159 080
+187 	Camaragibe 	 Pernambuco 	158 899
+188 	Lages 	 Santa Catarina 	157 349
+189 	Barreiras 	Bahia Bahia 	156 975
+190 	Franco da Rocha 	 São Paulo 	156 492
+191 	Paranaguá 	 Paraná 	156 174
+192 	Jequié 	Bahia Bahia 	156 126
+193 	Rio das Ostras 	 Rio de Janeiro 	155 193
+194 	Patos de Minas 	 Minas Gerais 	153 585
+195 	Parnaíba 	 Piauí 	153 482
+196 	Mogi Guaçu 	 São Paulo 	153 033
+197 	Pouso Alegre 	 Minas Gerais 	152 549
+198 	Alagoinhas 	Bahia Bahia 	152 327
+199 	Jaú 	 São Paulo 	151 881
+200 	Queimados 	 Rio de Janeiro 	151 335
+201 	Porto Seguro 	Bahia Bahia 	150 658
+202 	Botucatu 	 São Paulo 	148 130
+203 	Bandeira araucaria.jpg Araucária 	 Paraná 	146 214
+204 	 Sinop 	 Mato Grosso 	146 005
+205 	Bandeira de Balneário Camboriú - SC.svg Balneário Camboriú 	 Santa Catarina 	145 796
+206 	Atibaia 	 São Paulo 	144 088
+207 	Toledo 	 Paraná 	142 645
+208 	Santana de Parnaíba 	 São Paulo 	142 301
+209 	Sapucaia do Sul 	 Rio Grande do Sul 	141 808
+210 	Teófilo Otoni 	 Minas Gerais 	140 937
+211 	BandeiraGaranhuns.svg Garanhuns 	 Pernambuco 	140 577
+212 	Vitória de Santo Antão 	 Pernambuco 	139 583
+213 	Cametá 	Pará Pará 	139 364
+214 	Barbacena 	 Minas Gerais 	138 204
+215 	Brusque 	 Santa Catarina 	137 689
+216 	Bandeira Santa Rita PB.jpg Santa Rita 	 Paraíba 	137 349
+217 	Sabará 	 Minas Gerais 	137 125
+218 	Varginha 	 Minas Gerais 	136 602
+219 	Bandeira apucarana.jpg Apucarana 	 Paraná 	136 234
+220 	Bandeira de Simões Filho.png Simões Filho 	Bahia Bahia 	135 783
+221 	Araras 	 São Paulo 	135 506
+222 	Itaguaí 	 Rio de Janeiro 	134 819
+223 	Araruama 	 Rio de Janeiro 	134 293
+224 	Bandeira Campo-Largo.png Campo Largo 	 Paraná 	133 865
+225 	Flag of Marituba.svg Marituba 	Pará Pará 	133 685
+226 	Bandeira de Pinhais.jpg Pinhais 	 Paraná 	133 490
+227 	Crato 	 Ceará 	133 031
+228 	São Mateus 	 Espírito Santo 	132 642
+229 	Resende 	 Rio de Janeiro 	132 312
+230 	Bandeira de São Félix do Xingu.gif São Félix do Xingu 	Pará Pará 	132 138
+231 	Cubatão 	 São Paulo 	131 626
+232 	Bandeira de Santa Cruz do Sul - RS.svg Santa Cruz do Sul 	 Rio Grande do Sul 	131 365
+233 	Bandeira de Cachoeirinha.jpg Cachoeirinha 	 Rio Grande do Sul 	131 240
+234 	Valinhos 	 São Paulo 	131 210
+235 	Itapipoca 	 Ceará 	130 539
+236 	Bandeira maranguape ce.png Maranguape 	 Ceará 	130 346
+237 	Ji-Paraná 	 Rondônia 	130 009
+238 	Trindade 	 Goiás 	129 823
+239 	Vespasiano 	 Minas Gerais 	129 765
+240 	Conselheiro Lafaiete 	 Minas Gerais 	129 606
+241 	Bragança 	Pará Pará 	128 914
+242 	Sertãozinho 	 São Paulo 	127 142
+243 	Flag of Barcarena - PA - Brazil.png Barcarena 	Pará Pará 	127 027
+244 	Uruguaiana-bandeira.jpg Uruguaiana 	 Rio Grande do Sul 	126 866
+245 	Guarapari 	 Espírito Santo 	126 701
+246 	Jandira 	 São Paulo 	126 356
+247 	Birigui 	 São Paulo 	124 883
+248 	Bandeira de Arapongas - PR.svg Arapongas 	 Paraná 	124 810
+249 	Ribeirão Pires 	 São Paulo 	124 159
+250 	Bandeira de Paço do Lumiar.png Paço do Lumiar 	 Maranhão 	123 747
+251 	Bandeira de Formosa - GO.svg Formosa 	 Goiás 	123 684
+252 	Votorantim 	 São Paulo 	123 599
+253 	Colatina 	 Espírito Santo 	123 400
+254 	Caraguatatuba 	 São Paulo 	123 389
+255 	 Três Lagoas 	 Mato Grosso do Sul 	123 281
+256 	Bandeira de Codó - MA.svg Codó 	 Maranhão 	123 116
+257 	Santana 	 Amapá 	123 096
+258 	Várzea Paulista 	 São Paulo 	123 071
+259 	Tatuí 	 São Paulo 	122 967
+260 	Barretos 	 São Paulo 	122 833
+261 	Itatiba 	 São Paulo 	122 581
+262 	Guaratinguetá 	 São Paulo 	122 505
+263 	Catanduva 	 São Paulo 	122 497
+264 	Bento Gonçalves 	 Rio Grande do Sul 	121 803
+265 	Bandeira Bage.png Bagé 	 Rio Grande do Sul 	121 335
+266 	Itabira 	 Minas Gerais 	120 904
+267 	Bandeira almirante tamandare.jpg Almirante Tamandaré 	 Paraná 	120 041
+268 	Salto 	 São Paulo 	119 736
+269 	Bandeira de Paulo Afonso.jpg Paulo Afonso 	Bahia Bahia 	118 516
+270 	Bandeira de Senador Canedo.png Senador Canedo 	 Goiás 	118 451
+271 	Igarassu 	 Pernambuco 	118 370
+272 	Poá 	 São Paulo 	118 349
+273 	Araguari 	 Minas Gerais 	117 825
+274 	Bandeira de Novo Gama.jpg Novo Gama 	 Goiás 	117 703
+275 	Ubá 	 Minas Gerais 	116 797
+276 	Altamira 	Pará Pará 	115 969
+277 	Parintins 	 Amazonas 	115 363
+278 	Passos 	 Minas Gerais 	115 337
+279 	Tucuruí 	Pará Pará 	115 144
+280 	Bandeira de Piraquara.png Piraquara 	 Paraná 	114 970
+281 	Paragominas 	Pará Pará 	114 503
+282 	Bandeira eunapolis.svg Eunápolis 	Bahia Bahia 	114 396
+283 	Ourinhos 	 São Paulo 	114 352
+284 	São Lourenço da Mata 	 Pernambuco 	114 079
+285 	Bandeira-acailandia.png Açailândia 	 Maranhão 	113 121
+286 	Bandeira de Umuarama - PR.svg Umuarama 	 Paraná 	112 500
+287 	 Corumbá 	 Mato Grosso do Sul 	112 058
+288 	Paulínia 	 São Paulo 	112 003
+289 	Bandeira de Catalão.JPG Catalão 	 Goiás 	110 983
+290 	Coronel Fabriciano 	 Minas Gerais 	110 290
+291 	Bandeira scc.jpg Santa Cruz do Capibaribe 	 Pernambuco 	109 897
+292 	Ariquemes 	 Rondônia 	109 523
+293 	Muriaé 	 Minas Gerais 	109 392
+294 	Bandeira-Tailandia-PA.png Tailândia 	Pará Pará 	108 969
+295 	Bandeira de Patos - PB.svg Patos 	 Paraíba 	108 192
+296 	Bandeira Cambe Parana Brasil.svg Cambé 	 Paraná 	107 341
+297 	Araxá 	 Minas Gerais 	107 337
+298 	Erechim 	 Rio Grande do Sul 	106 633
+299 	Bandeira Tubarão.png Tubarão 	 Santa Catarina 	106 422
+300 	São Pedro da Aldeia 	 Rio de Janeiro 	106 049
+301 	Flag of Itumbiara GO.png Itumbiara 	 Goiás 	105 809
+302 	 Tangará da Serra 	 Mato Grosso 	105 711
+303 	Japeri 	 Rio de Janeiro 	105 548
+304 	BandeiraNovaSerrana.jpg Nova Serrana 	 Minas Gerais 	105 520
+305 	Ituiutaba 	 Minas Gerais 	105 255
+306 	Lagarto 	 Sergipe 	105 221
+307 	Assis 	 São Paulo 	105 087
+308 	Bandeira de Bacabal.jpg Bacabal 	 Maranhão 	104 790
+309 	Bandeira de Lavras.svg Lavras 	 Minas Gerais 	104 783
+310 	Leme 	 São Paulo 	104 346
+311 	Itaperuna 	 Rio de Janeiro 	103 800
+312 	 São Gonçalo do Amarante 	 Rio Grande do Norte 	103 672
+313 	Breves 	Pará Pará 	103 497
+314 	Itanhaém 	 São Paulo 	103 102
+315 	Aracruz 	 Espírito Santo 	103 101
+316 	Iguatu 	 Ceará 	103 074
+317 	Caieiras 	 São Paulo 	102 775
+318 	Itacoatiara 	 Amazonas 	102 701
+319 	Bandeira de Santo Antônio de Jesus (Bahia).svg Santo Antônio de Jesus 	Bahia Bahia 	102 380
+320 	Vilhena 	 Rondônia 	102 211
+321 	Jataí 	 Goiás 	102 065
+322 	Fazenda Rio Grande 	 Paraná 	102 004
+323 	Mairiporã 	 São Paulo 	101 937
+324 	Itaituba 	Pará Pará 	101 395
+325 	Barra do Piraí 	 Rio de Janeiro 	100 764
+326 	Abreu e Lima 	 Pernambuco 	100 346
