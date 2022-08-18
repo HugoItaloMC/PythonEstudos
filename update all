@@ -1,0 +1,525 @@
+[33mcommit 10b4f5180d49ef217745bce098feee048f9188e3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Mon Aug 15 08:29:42 2022 -0300
+
+    update myFunctions with regex for patterns in strings
+
+[33mcommit 57ab4165ff9decd934fca57428e63a884e0d5934[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Sun Aug 14 19:59:39 2022 -0300
+
+    update myFunctions with regex for patterns in strings
+
+[33mcommit 23e62febb3721edf4d4051f7f62de6dc9ed05500[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Aug 12 20:30:15 2022 -0300
+
+    update all
+
+[33mcommit ac3ff47b6852c996871cd69e53f6d23b6241cc1f[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Aug 12 09:20:22 2022 -0300
+
+    update all
+
+[33mcommit 4b516204b738670a7765422a46805701c841e619[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Mon Aug 8 23:12:56 2022 -0300
+
+    update training scripts python for file
+
+[33mcommit b40bf0f8f36deae96e637ff9171f210609a4e925[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Mon Aug 8 22:44:22 2022 -0300
+
+    update training scripts python for file
+
+[33mcommit 233069e68e6e549b941f1c7d26c1f3c32903844b[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Sat Jul 30 23:27:22 2022 -0300
+
+    update
+
+[33mcommit 0f9274b6e2f6134e0b0a51d406cc095d8814a5e2[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Sat Jul 30 23:27:19 2022 -0300
+
+    update
+
+[33mcommit a5eea36bfe31ad2c62fea11914d00fa6776e88a2[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Jul 29 11:01:50 2022 -0300
+
+    part update learn Python
+
+[33mcommit c54b31c41de1f59ba33d596398677b30adb0861f[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Sat Jul 23 22:01:14 2022 -0300
+
+    update learn Python edit folders and files
+
+[33mcommit 7e9c950ca14e364f9ff0b79b47b3bb0f973267e0[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Jul 22 12:48:10 2022 -0300
+
+    update PythonEstudos tree folders and files
+
+[33mcommit ea3fdc0cb1be6a6a17dabed78504ee1865a1a25a[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Jul 22 10:50:55 2022 -0300
+
+    update aulas PythonEstudos/Sources/14-Iteradores_e_Geradores
+
+[33mcommit e188420e29a2a33a8eb5ab4b58c4f4e1625365a8[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Fri Jul 22 09:57:18 2022 -0300
+
+    update diretorios estudos
+
+[33mcommit 5c0b7b4779eeb364593f12b50a21cd713430b6b6[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Thu Jul 21 13:07:14 2022 -0300
+
+    update aulas python
+
+[33mcommit 58fe544be8b1ad4408e622cb70c9b41386a9a51e[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Wed Jul 13 17:39:13 2022 -0300
+
+    update aula leitura e escrita em arquivos com Python
+
+[33mcommit f4c37ecbed0e76ad04df43d6ad78df1a51608d9e[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Wed Jul 13 17:38:42 2022 -0300
+
+    update aulas leitura e escrita em arquivos
+
+[33mcommit bef5973c1e0b4b9b905ffe5ca54f5e84094cb995[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Wed Jul 13 17:38:39 2022 -0300
+
+    update aulas leitura e escrita em arquivos-a
+
+[33mcommit 2e6a507a792fb45bcc614a1c2bd370c85d02f6b1[m
+Author: correia <correia@debian-BULLSEYE-live-builder-AMD64>
+Date:   Wed Jul 13 09:04:09 2022 -0300
+
+    update aulas Python Leitura e Escrita em Arquivos
+
+[33mcommit 47c77c2bb672910882506103fe871a6a4887a3bc[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Sun Jun 19 17:38:16 2022 -0300
+
+    update learning python for writering read in archives
+
+[33mcommit 4bac8f387c19551199a57db730fe1b0c8dca0fb3[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Sun Jun 19 13:52:33 2022 -0300
+
+    update python learning for package and modules built'in or external
+
+[33mcommit c2c75fb6d404c6b78d5b4d6ad52818d0e55a38c6[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Sun Jun 19 13:51:19 2022 -0300
+
+    update python learning for package and modules built'in or external
+
+[33mcommit 49aafdfc60b59f65b3f3b0fc8c5b1bd77a3626a9[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Sun Jun 19 00:21:25 2022 -0300
+
+    update
+
+[33mcommit 0973cb43dbb467e6dd39c4b5d000b0afd2a6d56c[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Sat Jun 18 12:47:37 2022 -0300
+
+    update classes from python packages
+
+[33mcommit f48ab303bc0cb13e81fed9e12b8fa6f569e9a585[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Fri Jun 17 19:48:55 2022 -0300
+
+    debug module finished
+
+[33mcommit 95f875be9c8aaa81819eefa41a1fb4e602c5f9bf[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Fri Jun 17 11:33:48 2022 -0300
+
+    update inline python code debug learning
+
+[33mcommit 4666b2d0194d66349add3b22545eb2fc7428ca3e[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Wed Jun 15 22:27:19 2022 -0300
+
+    update aulas try/except
+
+[33mcommit 0846f2cbd4a728651912944c03b46da5eb2e22da[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Wed Jun 15 11:24:26 2022 -0300
+
+    upgrade lerning
+
+[33mcommit 607119f3929eb7bde20547a0a55f56446f202c28[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Wed Jun 15 10:47:26 2022 -0300
+
+    update
+
+[33mcommit 242244510aa50e7426cb5ce1cc5e4b5ce01bb72c[m
+Author: HugoItaloMC <magalhaeshugocorreia@gmail.com>
+Date:   Wed Jun 15 00:35:28 2022 -0300
+
+    finish module lambdas-funcoes-integradas, begin learn modulo Debugando_TratandoErros
+
+[33mcommit d8ff135e1de09691ee219b8990b955974dc96d93[m
+Author: correia <correia@debian>
+Date:   Tue Jun 14 13:16:52 2022 -0300
+
+    update aulas funcoes
+
+[33mcommit 95cbe77eff7045702ffe6bee018410ba50e0c16c[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Jun 10 00:18:16 2022 -0300
+
+    update
+
+[33mcommit 2d78a4e58e91724cb21dc27e2d77ea7b39085c57[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Jun 10 00:18:03 2022 -0300
+
+    update-a
+
+[33mcommit 700b6f5932dcd06972c90f7f5c46d1a432eb377c[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Jun 9 23:34:42 2022 -0300
+
+    update Python Estudos
+
+[33mcommit 6db2a3e7bc824c28119a45c355a07f6ab4d39df2[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Jun 8 13:18:57 2022 -0300
+
+    update
+
+[33mcommit c428d5aee6e6cbf4c7fdc57e4e7e13789be3c2f5[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Mon Jun 6 23:57:15 2022 -0300
+
+    update
+
+[33mcommit d5e254809d09c58a2d817aaabcf2c1d9b92c750a[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Mon Jun 6 23:53:29 2022 -0300
+
+    update
+
+[33mcommit 37a9625fce5edfff264514fb30d57ed92e1a7024[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Mon Jun 6 23:43:39 2022 -0300
+
+    update lerning Python begin
+
+[33mcommit 6de91791dca713c5198ebcc7d423e48457cd56f2[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sat Jun 4 07:11:49 2022 -0300
+
+    update aula any_all
+
+[33mcommit 79026b781fbdf5bd49fca3e7c1b313f3a24015af[m
+Merge: e77d709 fa25ca6
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 26 00:26:19 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit e77d7099e9ab00deacd6681020669f1c719a386b[m
+Merge: bb7b964 35e0b13
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 26 00:26:07 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit fa25ca6990e0aef29d21c4903db0722e2b73edf7[m
+Merge: bb7b964 35e0b13
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 26 00:26:07 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit bb7b964ae8ef4dc6d48766847f9bd7eeadc7ce56[m
+Merge: 9441e8a c919c98
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 25 22:56:57 2021 -0300
+
+    updates : reduce.py, exemplos
+
+[33mcommit 35e0b13c809e52040e867c141309b26db3a1c4d7[m
+Merge: 9441e8a c919c98
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 25 22:56:57 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+    
+    # Conflicts:
+    #       Sources/lambdas-funcoes-integradas/filter.py
+
+[33mcommit 9441e8a9e321487b0abcc54a805e332ea7902a64[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 25 22:31:37 2021 -0300
+
+    updates: filter.py
+    entendendo filter()
+
+[33mcommit c919c98c02fd3d02275cc9fee4a4378a7c4ac688[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 25 22:31:37 2021 -0300
+
+    updates: lambdas.py, maps.py, filter.py
+
+[33mcommit 4f562070627f62830f25bc2b061bd72032a2e1b8[m
+Merge: 56bb73a 5df2594
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 24 12:54:40 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 56bb73ad9b3aab9577bbf78555e5905ecbfdd860[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sat Nov 20 08:41:16 2021 -0300
+
+    upadtes Expressoes lambdas
+    
+    updates : comprehensions, lambdas e funcões integradas, map; README
+
+[33mcommit 5df25941f5fd5208cd99e64026fbd72d0a1a95ee[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sat Nov 20 08:41:16 2021 -0300
+
+    upadtes Comprehensions other all
+    
+    updates : comprehensions, lambdas, funcões integradas 'incio'
+
+[33mcommit 67d27a03af33fcd7e1d9b5712145962575e64d2a[m
+Merge: f403388 4207a6f
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 19 10:48:47 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit f403388347d9fbd0aab789a726259721d0727ba0[m
+Merge: 77aa911 1a30b46
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 19 09:30:46 2021 -0300
+
+    updates : README : dict_comprehensions.py
+
+[33mcommit 4207a6f9af6a4efa248d54d781353a258837f186[m
+Merge: 77aa911 1a30b46
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 19 09:30:46 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 77aa911887d3dc43183e61422693cb574f0e4185[m
+Merge: a22a738 1b0845a
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 23:19:05 2021 -0300
+
+    updates : listas_aninhadas.py
+
+[33mcommit 1a30b464307fc4efadc7fdcecd3eccea63b4c953[m
+Merge: a22a738 1b0845a
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 23:19:05 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit a22a73885d8b2e031e3ce1e4bbe9907441c9449b[m
+Merge: 47182a9 d883eaa
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 09:35:43 2021 -0300
+
+    update : README :
+
+[33mcommit 1b0845ac3595da7ffe003e730c88a81ddde99e0f[m
+Merge: 47182a9 d883eaa
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 09:35:43 2021 -0300
+
+    Merge branch 'main' of https://github.com/HugoItaloMC/PythonEstudos into main
+
+[33mcommit 47182a9c39ba1257ec67e9ea79aaf32c09dc4b1a[m
+Merge: a0ac769 df39dc6
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 01:11:32 2021 -0300
+
+    update : list_comprehensions.py
+
+[33mcommit d883eaa0ee91f010de02afb46bfd7ae0e2022f59[m
+Merge: a0ac769 df39dc6
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 18 01:11:32 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit a0ac769e2e2ea1e6ecbc0bc85171c5f6d5da7c09[m
+Merge: 57e7f6e 041def6
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 17 23:10:23 2021 -0300
+
+    refatorando códigos
+
+[33mcommit df39dc69f11e59c40c59c738e5df049f3f6e5889[m
+Merge: 57e7f6e 041def6
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 17 23:10:23 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 57e7f6e4e02bb2a617709d45bfbd73cc884405db[m
+Merge: 826de29 39fea38
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sun Nov 14 22:30:38 2021 -0300
+
+    Merge remote-tupdates : Estudo Comprehensions Python, README, chek'in aulasracking branch 'origin/main' into main
+
+[33mcommit 041def6db5fadd21f7928f93fcbc34eaad7bde96[m
+Merge: 826de29 39fea38
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sun Nov 14 22:30:38 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 826de297dddda942042d73af04441bc9c1a8d06a[m
+Merge: bc59368 4d67919
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sat Nov 13 18:52:53 2021 -0300
+
+    updates : exercicio_05.py , exercicio_06.py
+
+[33mcommit 39fea38e9a5a22d15c983536b5c33b8babf11247[m
+Merge: bc59368 4d67919
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Sat Nov 13 18:52:53 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit bc5936826f7caee5f82dc977ef9275a3c2ac0309[m
+Merge: 517502c 6a9f0f0
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 23:49:41 2021 -0300
+
+    updates : Resolucão de exercicios secão : Colecões Python
+
+[33mcommit 4d67919c4db97bebdc940802313dab54424d8e40[m
+Merge: 517502c 6a9f0f0
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 23:49:41 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 517502cab60427432ca926b99d062e2af743f0c5[m
+Merge: 2991be5 97c32cc
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 22:27:07 2021 -0300
+
+    update : aula kwargs.py
+
+[33mcommit 6a9f0f07ff5ebfb86e1d3185ccd073b56973ca00[m
+Merge: 2991be5 97c32cc
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 22:27:07 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 2991be5a56c0ca545ac764dd64a29883c614224d[m
+Merge: b58146d add2b1d
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 12:04:15 2021 -0300
+
+    updates : args.py, docstrings_funcoes.py, README.md
+
+[33mcommit 97c32cc8596dd602558d9b434920e057c35cd470[m
+Merge: b58146d add2b1d
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 12:04:15 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit b58146dc3077ce7110bf7ecea09062b6df80714f[m
+Merge: 94a32b1 b8ed957
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 11:22:46 2021 -0300
+
+    updates : funcoes_com_parametroPadrao.py, docstrings_funcoes.py, README.md
+
+[33mcommit add2b1d29c8511bcb3968ce91a06ae03638386e8[m
+Merge: 94a32b1 b8ed957
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Fri Nov 12 11:22:46 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 94a32b1bb331726b162bc9e3f6de9acbdf544e5d[m
+Merge: 7762a85 db2a310
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 11 22:20:59 2021 -0300
+
+    updates, aula list.py, funcoes_com_parametroPadrao.py
+
+[33mcommit b8ed95796f0cf080b53e7da5eefd9a917def8591[m
+Merge: 7762a85 db2a310
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Thu Nov 11 22:20:59 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 7762a85f11c09e8007426aa015e0b5fa967e005d[m
+Merge: 41a03e1 06363ed
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 10 23:24:38 2021 -0300
+
+    updates :  README, funcoes_com_parametro.py, definindo_funcoes.py
+
+[33mcommit db2a310bb5d0e96d7f4ce75d68476704fff4eb6d[m
+Merge: 41a03e1 06363ed
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 10 23:24:38 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit 41a03e1702730226b33b4a5523c6bd00196c2a1f[m
+Merge: f49d66c d03dc68
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 10 22:57:20 2021 -0300
+
+    updates : funcoes_com_parametros.py , README
+
+[33mcommit 06363ed860e588127dcb07151d48dffc82b788da[m
+Merge: f49d66c d03dc68
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Wed Nov 10 22:57:20 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+    
+    # Conflicts:
+    #       Sources/Funcoes_Python/funcoes_com_retorno.py
+
+[33mcommit f49d66c469f7fb39c6005b3db1878112b86b73d5[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Tue Nov 9 08:23:43 2021 -0300
+
+    updates: aula funcoes_com_retorno.py
+
+[33mcommit d03dc68e2149f36e61f4549ab9841b231733f4cd[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Tue Nov 9 08:23:43 2021 -0300
+
+    updates: aula funcoes_com_retorno.py , README
+
+[33mcommit 057f847201166e1a61613aa80ae7455a40b01aeb[m
+Author: Hugo Italo Magalhães Correia <magalhaeshugocorreia@gmail.com>
+Date:   Tue Nov 9 08:23:43 2021 -0300
+
+    update: Aula definindo_funcoes.py

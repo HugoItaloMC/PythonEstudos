@@ -23,40 +23,6 @@ Secão 9 ; Comprehensions em Python :
         letras = {letra for letra in 'Teste de Set'}
         print(letras)
 
-
-.==============================================.
-|     " " " " " " " " " " " " " " " " " "      |
-|     "  Ordem alfabetica nas variáveis "      |
-|     "      globais e locais :         "      |
-|     "                                 "      |
-|     "       Examples Global :         "      |
-|     "                                 "      |
-|     "            a = ''               "      |
-|     "             b = 0               "      |
-|     "             c = True            "      |
-|     "                                 "      |
-|     "                                 "      |
-|     "       Examples Local :          "      |
-|     "                                 "      |
-|     "        a = range(0, 10)         "      |
-|     "                                 "      |
-|     "        for b, c in a:           "      |
-|     "            for d, in b:         "      |
-|     "                print(d)         "      |
-|     "            for e in c:          "      |
-|     "                print(e)         "      |
-|     "                                 "      |
-|     "                                 "      |
-|     "    Ordem válida para funcões    "      |
-|     "      e seus parametros :        "      |
-|     "                                 "      |
-|     "          Examples:              "      |
-|     "                                 "      |
-|     "       def d(da, db):            "      |
-|     "       return (da + db) * da     "      |
-|     " " " " " " " " " " " " " " " " " "      |
-.==============================================.
-
 """
 letras = {letra for letra in 'Teste de Set'}
 print(letras)

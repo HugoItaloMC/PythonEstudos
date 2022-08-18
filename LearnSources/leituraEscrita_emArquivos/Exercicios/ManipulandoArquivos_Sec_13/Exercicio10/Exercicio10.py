@@ -7,48 +7,37 @@ gerar o arquivo de saída o onde aparece o nome da cidade mais populosa.
 
 import re as rgx
 
-
-def clear_path_file(arg):
-    """
-    Recebe arg como argumento obrigatório
-    :param arg: É tratado para limpar caminhos (path) de arquivos (files)
-    :return: retorna um iterável
-    """
-
-    clear = rgx.compile(r'.*svg|.*png|.*gif|.*jpg', flags=rgx.IGNORECASE)
-    arg = rgx.sub(clear, '', arg)
-    return arg
-
-
 if __name__ == '__main__':
-
-    import MyFolder.MySources.myFunctions.regexFunction as rgxF
-
     try:
         # Arquivo de Entrada
         with open(f"dataCitys.txt", "r+") as dataCitys:
             dataCitys = dataCitys.read()
             if not len(dataCitys) == 0:
+
                 #  Implementando padrões, descartando caracteres que ñ são padrões no arquivo
-                # Tratamentos específicos levantado no arquivo de saída para alfanúmericos e literais
+
+                # Retorna Alfanumericos, extensões de img, '\t' (tablatura) e ignora cases:
+                reg_putLit = rgx.compile(r'[0-9\t]+|.*svg|.*png|.*gif|.*jpg', flags=rgx.IGNORECASE)
+
+                # Retorna tudo que ñ for alfanúmerico e os caracter vazio '\n' (quebra-linha):
+                reg_putAlf = rgx.compile(r'[^0-9 \n]?')
 
                 # Tratamento com Regex no arquivo
-                dataCitysNameList = clear_path_file(dataCitys)
+                dataCitysNames = rgx.sub(reg_putLit, '', dataCitys)  # Armazenando somente literais padrões
+                dataCitysPeople = rgx.sub(reg_putAlf, '', dataCitys)  # Armazenando somente alfanúmericos padrões
 
-                dataCitysNameList = rgxF.rgx_put_word(dataCitysNameList)
-                dataCitysNameList = [line for line in dataCitysNameList.split('\n')]
-                dataCityPeopleList = rgxF.rgx_put_dec(dataCitys)
-                dataCityPeopleList = ''.join([rgx.sub(r'^[0-9]..\t?| ', '', line)
-                                               for line in dataCityPeopleList.split('\n') if not line == ''])
-                print(dataCitys, dataCityPeopleList, dataCitysNameList)
+                # Tratamentos específicos levantado no arquivo de saída para alfanúmericos e literais
+                dataCitysNamesList = [line for line in dataCitysNames.split('\n')]
+
+                dataCityPeopleList = [rgx.sub(r'^[0-9]..\t?| ', '', line)
+                                      for line in dataCitysPeople.split('\n') if not line == ''
+                                      ]
                 dataCityPeopleList = list(map(int, dataCityPeopleList))
-                dataCityObj = {dataCitysNameList[line]: dataCityPeopleList[line]
+                dataCityObj = {dataCitysNamesList[line]: dataCityPeopleList[line]
                                for line in range(0, len(dataCityPeopleList))
-                               if len(dataCitysNameList[line]) < 40
+                               if len(dataCitysNamesList[line]) < 40 and len != ''
                                }
-                print(dataCityObj)
                 dataCityExit = dataCityObj[max(dataCityObj, key=dataCityObj.get)]
-                print(dataCityExit)
                 for key, value in dataCityObj.items():
                     if dataCityExit == value:
                         try:
@@ -57,7 +46,6 @@ if __name__ == '__main__':
                                     dataCityAfter.write(f" Há Cidade de{key[:11:1]}"
                                                         f"é a cidade com maior numero de hábitantes"
                                                         f"\ncom {dataCityExit} de habitantes")
-                                    break
                                 else:
                                     print(f"Error ## O arquivo não está vázio")
                         except (TypeError, ValueError, OSError, FileExistsError, FileNotFoundError, SyntaxError,
@@ -69,18 +57,8 @@ if __name__ == '__main__':
         print(f"Erro ## {err}")
 
 """
-
-" 
-  - Arquivos de entrada e saída 
-  - Tornalo-os iteráveis:(entrada)
-  - Filtrar literais e alfanúmericos:(entrada) para um objeto:(saída)
-  - Retornar chave com maior valor do objeto:(saída)
-"
-
 arq = open("cidadesNomes.txt")
 arq = arq.read()
-
-
 arq2 = open("cidadesPopulacao.txt")
 arq2 = arq2.read()
 
