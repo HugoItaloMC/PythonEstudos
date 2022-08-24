@@ -47,8 +47,8 @@ def obj_dict(foo):
     :return: Um objeto, kwarg(key) como chave e karg(value) como valor inteiro
     de {kwarg:karg}
     """
-    put_word = [rgx.sub(r"[0-9 \t]*", '', line, flags=rgx.IGNORECASE) for line in foo.split('\n')]
-    put_dec = list(map(int, [rgx.sub(r"[^0-9\n]+", '', line) for line in foo.split('\n') if not line == '']))
+    put_word = [rgx.sub(r"[0-9 º/\t-]*", '', line, flags=rgx.IGNORECASE) for line in foo.split('\n')]
+    put_dec = [rgx.sub(r"[^0-9 /\n-]+", '', line) for line in foo.split('\n') if not line == '']
     obj = {put_word[line]: put_dec[line] for line in range(0, len(put_dec))}
     return obj
 

@@ -4,7 +4,7 @@ linha do nome de uma cidade e o seu número de habitantes (ocupando 40 caractere
 gerar o arquivo de saída o onde aparece o nome da cidade mais populosa.
 
 """
-
+import re
 import re as rgx
 
 if __name__ == '__main__':
@@ -29,7 +29,7 @@ if __name__ == '__main__':
                 # Tratamentos específicos levantado no arquivo de saída para alfanúmericos e literais
                 dataCitysNamesList = [line for line in dataCitysNames.split('\n')]
 
-                dataCityPeopleList = [rgx.sub(r'^[0-9]..\t?| ', '', line)
+                dataCityPeopleList = [rgx.sub(r'^[0-9]..\t?| ', '', line, (re.ASCII | re.IGNORECASE | re.DOTALL))
                                       for line in dataCitysPeople.split('\n') if not line == ''
                                       ]
                 dataCityPeopleList = list(map(int, dataCityPeopleList))

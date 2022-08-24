@@ -17,7 +17,7 @@ Guido Van Rossum :  " Ultiliza a funcão reduce() se vc realmente precisa dela. 
 
 from functools import reduce
 
-dados = list(range(1, 10))
+dados = list(range(1, 11))
 
 print(reduce(lambda x, y: x * y, dados))
 
