@@ -5,7 +5,7 @@ o número de vezes que aquela palavra aparece no arquivo
 """
 
 arq = open(
-    '/home/correia/PycharmProjects/MyPythonSources/LearnSources/leituraEscrita_emArquivos'
+    '/home/correia/PycharmProjects/MyPythonSources/Geek_University/leituraEscrita_emArquivos'
     '/Exercicios/ManipulandoArquivos_Sec_13/Exercicio10/dataCitys.txt')
 
 arq = arq.read().lower()

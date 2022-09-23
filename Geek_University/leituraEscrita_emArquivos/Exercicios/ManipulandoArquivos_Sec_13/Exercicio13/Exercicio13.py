@@ -9,7 +9,7 @@ def cadastro():
 if __name__ == '__main__':
 
     try:
-        with open('/home/correia/PycharmProjects/MyPythonSources/LearnSources/leituraEscrita_emArquivos/Exercicios/ManipulandoArquivos_Sec_13/Exercicio13/cadastro.txt'
+        with open('/home/correia/PycharmProjects/MyPythonSources/Geek_University/leituraEscrita_emArquivos/Exercicios/ManipulandoArquivos_Sec_13/Exercicio13/cadastro.txt'
                 , 'w+') as arq:
             while True:
                 n = input("Digite 'Q' para sair e 'N' para novo cadastro: ").lower()
