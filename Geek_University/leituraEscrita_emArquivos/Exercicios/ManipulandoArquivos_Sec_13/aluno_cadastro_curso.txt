@@ -1,0 +1,12 @@
+Diciplina -> adm
+%%-	Alunos Matriculados 2
+-	 Dados Aluno %%
+-	Nome : hugo 
+-	Data de Nascimento: 19081977
+
+Diciplina -> adm
+%%-	Alunos Matriculados 2
+-	 Dados Aluno %%
+-	Nome : maria 
+-	Data de Nascimento: 19081932
+

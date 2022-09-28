@@ -7,7 +7,7 @@ de saída contendo a data de hoje e o nome de cada pessoa com sua idade e data d
 if __name__ == '__main__':
     #from MyFolder.MySources.myFunctions import regexFunction as rgFun
     import re
-    with open("nomes.txt", "r+") as arq:
+    with open("../meteriais_apoio/nomes.txt", "r+") as arq:
         arq = arq.read()
         date_pattern = re.compile(r"(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/([0-9]{4})")  # DATA NASCIMENTOs
         data_pattern = re.compile(r"([0-9]{9})-([0-9]{2})*")  # CPF

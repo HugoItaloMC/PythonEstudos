@@ -8,7 +8,7 @@ palavras são separadas por um espaco ou mais, tabulacão '\t' nova linha '\n'
 import re
 from collections import Counter
 from MyFolder.MySources.myFunctions import regexFunction as rgFunc
-arq = open("dataCitys.txt", "r+")
+arq = open("meteriais_apoio/dataCitys.txt", "r+")
 arq = arq.read()
 a = ''
 print(len(re.sub(r"[^\n]", '', arq)), f'linhas, \n{len(rgFunc.rgx_put_char(arq))} caracteres\n',

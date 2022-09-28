@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open("materiais_apoio/cities_w_more_1m_p.csv", "r") as arq:
+with open("materiais_apoio/cities_w_more_1m_p.csv") as arq:
    #  Paises com cidades contendo mais de 1 milhão de pessoas
 
    df = pd.read_csv(arq)
@@ -17,5 +17,4 @@ with open("materiais_apoio/cities_w_more_1m_p.csv", "r") as arq:
    #  Filtrando Pesquisas
 
    print(df["1989"].unique())
-   not_null = df.loc(df['Pais'] == 'Brazil')
-   print(not_null)
+   print(f"{df.loc(df['Pais'] == 'Brazil')}")

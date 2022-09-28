@@ -1,0 +1,2 @@
+Item arroz Preco 19.99 $$
+Item feijao Preco 8.99 $$

@@ -12,12 +12,12 @@ if __name__ == '__main__':
     # Refature :
 
     # Put entry file
-
     try:
         with open(f"{input('Digite nome do arquivo de entrada com sua extensão : ')}", "r+") as arq:
+            # read file data
             arq = arq.read()
             if not len(arq) == 0:
-                # read file data
+
                 put = input("Digite Busca da Ocorrência : ")  # Search data in entry file
                 change = input("Digite substituicão da ocorrência : ")  # Put data in exit file
                 try:
