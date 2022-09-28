@@ -1,7 +1,1 @@
-
-**
--	Aluno : hugo
--	Nota: 1000
-**
--	Aluno : maria
--	Nota: 1001
+Aluno : Hugo Nota : [8, 9, 13]
