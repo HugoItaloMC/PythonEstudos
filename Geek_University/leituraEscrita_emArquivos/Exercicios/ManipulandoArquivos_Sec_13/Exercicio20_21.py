@@ -8,13 +8,14 @@ respectiva nota. Se o nome ñ conter 40 caracteres complete com espacos vazios a
 # Iniciando curso e matricula
 import re
 try:
+    aluno_:   list[str]
+    entrada_: list[str, int]
+    continue_: str
+    quit_: str
+    re_name = re.compile(r':.*[a-z]', re.I)
     with open("aluno_cadastro_curso.txt", "w+") as arq:
-        continue_: str
-        quit_: str
         while True:
             continue_ = input('******\n\n[C]-\tCadastro Curso \n[A]-\tCadastro Alunos \n: ').lower()
-            entrada_: list[str, int]
-            aluno_:   list[str]
             if continue_ == 'c':
                 entrada_ = [input('\t**Iniciando Curso ->\nDiciplina: '),
                             int(input('Quantidade de Vagas: '))
@@ -28,7 +29,6 @@ try:
             quit_ = input('\n\nSair [Q] | Retornar [V] : ')
             if quit_ == 'q':
                 break
-    re_name = re.compile(r':.*[a-z]', re.I)
     with open('aluno_cadastro_curso.txt', "r+") as arq_after:
         arq_after = arq_after.read()
         notas_: object
