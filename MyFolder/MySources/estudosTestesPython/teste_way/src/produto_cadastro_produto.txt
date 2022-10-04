@@ -1,12 +1,17 @@
-Tipo -> limpeza
--	%% Produto %%
--	Nome : sabao em po
--	Quantidade : 3
--	Data de Validade : 09/09/2023
+[
+	(Arroz Camil),
+	(3),
+	(09/12/2022),
+	]
 
-Tipo -> limpeza
--	%% Produto %%
--	Nome : detergente
--	Quantidade : 3
--	Data de Validade : 09/09/2023
+[
+	(feijao carioca),
+	(3),
+	(09/12/2022),
+	]
 
+[
+	(oleo de soja),
+	(4),
+	(09/12/2022),
+	]

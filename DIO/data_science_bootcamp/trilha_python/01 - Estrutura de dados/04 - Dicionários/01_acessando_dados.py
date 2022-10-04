@@ -1,6 +1,6 @@
 dados = {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
 
-print(dados["nome"])  # "Guilherme"
+print(dados[f"{input('Digite Algo :')}"])  # "Guilherme"
 print(dados["idade"])  # 28
 print(dados["telefone"])  # "3333-1234"
 
