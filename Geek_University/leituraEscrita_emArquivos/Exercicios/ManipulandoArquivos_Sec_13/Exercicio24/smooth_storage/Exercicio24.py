@@ -6,9 +6,10 @@
 """
 import re
 import os
-
-category_storage = os.path.join(os.getcwd(), 'product/storage')  # Path da pasta de produtos (nome, quantidade, dataVal)
-category_list = os.path.join(os.getcwd(), 'product/cast')
+ # Path da pasta de produtos (nome, quantidade, dataVal)
+category_storage: str = os.path.join(os.getcwd(), 'product/storage')
+# Path da pasta de segmentos do estoque
+category_list: str = os.path.join(os.getcwd(), 'product/cast')
 
 re_name = re.compile(r'[a-z ]', re.IGNORECASE)
 re_size = re.compile(r'Quantidade :.*[0-9]', re.IGNORECASE)
@@ -18,11 +19,11 @@ struct_ = lambda x: [line.group() for line in re.finditer(re_struct, x)]
 struct_name = lambda x: [line.group() for line in re.finditer(re_name, x)]
 struct_size =lambda x: [line.group() for line in re.finditer(re_size, x)]
 
+produto_: list[str]
+segmento: list[str|int]
+menu_: str
 try:
     while True:
-        produto_: list[str]
-        segmento: list[str, int]
-        menu_: str
         # Cadastro Produtos e quantidades, Segmentos e Variedades:
         menu_ = input('\n\t|*********************.\n'
                           '\t|>> SMOOTH STORAGE\t<<|'
@@ -62,29 +63,34 @@ try:
                           ).lower()
             print('\n' * 100)
             if menu_ == 'p':
-                os.chdir(category_storage)
+                os.chdir(category_storage)  # Acessando pasta de persistência de dados de produtos
 
                 # Declarando Segmento e suas variedades
                 segmento = [input('\n************************.\n'
                                  'CADASTRAMENTO DE PRODUTO |'
                                  '\n************************`\n'
                                  '-\t Categoria de Produto\n\t: ').lower(),
-                            input('-\tVariedades: ')
+                            int(input('-\tVariedades: '))
                             ]
                 # Salvando informacões de produto em um arquivo
-                for _ in range(0, len(segmento[1])+1):
+                for _ in range(0, segmento[1]):
                     with open(f"produto_cadastro_{segmento[0]}.txt", "a+") as arq:
                         produto_ = [input('\n\nNome : '),
                                     input('Data de Validade : '),
                                     int(input('Quantidade : '))
                                     ]
                         # Persistência dos dados de produtos !
-                        arq.write(f"{{\nProduct :{produto_[0]}\n{produto_[2]}\n{produto_[1]}}}")
+                        arq.write(f"{{Product :{produto_[0]}\n{produto_[2]}\n{produto_[1]}}}\n\n")
                 print('\n' * 100)
-                os.chdir('..')
-                os.chdir(category_list)
-                with open('category_list.txt', "a+") as arq_list:
-                    arq_list.write(f"{segmento[0]}\n")
+                os.chdir('..')  # Saindo da pasta de dados de produtos
+                os.chdir(category_list)  # Acessando pasta de lista de segmentos
+                with open('category_list.txt', "r+") as arq_list:
+                    arq_list_after = arq_list.read().split('\n')
+                for line in arq_list_after:
+                    if line != segmento[0]:
+                        arq_list.write(f'{segmento[0]}\n')
+                    else:
+                        pass
                 os.chdir('..')
             # Condicão de saída da ordem
             elif menu_ == 'q':
