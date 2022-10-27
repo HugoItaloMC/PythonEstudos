@@ -1,7 +1,7 @@
 """
  # Programacão Orientada a Objetos (POO)
 
- - POO é um paradigma de programacão que utilizado de mapeamento
+ - POO é um paradigma de programacão que utiliza de mapeamento
 de objetos do mundo real para modelos computacionais
 
  - Paradigma de programacão é a forma/método utilizada para
@@ -11,7 +11,7 @@ pensar/desenvolver sistemas.
  - Classes : Modelo do objeto do mundo real sendo representado, computacionalmente.
  - Atributos : Características do objeto.
  - Método : Comportamento dos objetos da classe (funcões).
- - Coonstrutor : Método especial utilizado para criar objetos.
+ - Construtor : Método especial utilizado para criar objetos.
  - Objeto : Instância da classe.
 
 """

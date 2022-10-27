@@ -4,7 +4,7 @@ Criando sua própria versão de loop
 """
 
 # Entendendo mais a fundo o for
-
+import six
 for n in [1, 2, 3, 4, 5]:
     print(n)
 

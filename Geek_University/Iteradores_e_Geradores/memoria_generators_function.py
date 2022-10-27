@@ -21,6 +21,10 @@ def fib_gen(max):
         cont += 1
 
 
-# Teste
+# Teste Gen
 for n in fib_gen(100000):
+    print(n)
+
+# Teste list
+for n in fib_lista(100000):
     print(n)

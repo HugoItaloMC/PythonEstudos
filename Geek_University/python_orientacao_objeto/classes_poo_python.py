@@ -19,7 +19,7 @@ POO  - Classes
      da convencão
 
      - OBS : Quando estamos planejando um software e definimos quais classes teremos
-     que ter no nosso sistema, chamamos esses objetos que são ser mapeado pelas classes
+     que ter no nosso sistema, chamamos esses objetos que vão ser mapeado pelas classes
 
 """
 

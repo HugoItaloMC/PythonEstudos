@@ -45,12 +45,12 @@ class Usuario:
 """ 
   Em python por convencão todos os atributos são públicos, podem ser acessados em todo o projeto.
 Caso queiramos demonstrar que determinado atributo deve ser tratado como privado, ou seja, que deve
-ser acessado /utilizado somente dentro da própria classe onde está declarado, utiliza-se __ duplo
-underscore no inicio do seu nome.
+ser acessado/utilizado somente dentro da própria classe onde está declarado, utiliza-se '__nome_atributo' 
+duplo underscore seguido do nome do atributo declarado no cabecalho do método construtor '__init__'.
  Lembre-se que isso é apenas uma convencão, ou seja, a linguagem Python não vai impedir que facamos
 acesso aos atributos sinalizados como privados fora da classe
 
-Isso é conhecido também como Name Mangling
+ Isso é conhecido também como Name Mangling
 """
 
 # Atributos Privados
