@@ -12,4 +12,12 @@ def dormir(total_descanso):
     else:
         return 'Dormi demais, estou atrasado'
 
+def engracado(pessoa):
+    comediante = [
+        'Jim Carrey',
+        'Bozo'
+    ]
+    if pessoa in comediante:
+        return True
+    return False
 

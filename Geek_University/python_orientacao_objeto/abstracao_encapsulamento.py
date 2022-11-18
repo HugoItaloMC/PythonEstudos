@@ -36,13 +36,13 @@ class Conta:
 
     def __init__(self, titular, saldo, limite):
         self.__numero = Conta.contador
-        self.__titulas = titular
+        self.__titular = titular
         self.__saldo = saldo
         self.__limite = limite
         Conta.contador = self.__numero + 1
 
     def extrato(self):
-        print(f"Saldo de \n\t...{self.__saldo}\n Titulas\n\t...{self.__titulas}\n Limite\n\t...{self.__limite}\n")
+        print(f"Saldo de \n\t...{self.__saldo}\n titular\n\t...{self.__titular}\n Limite\n\t...{self.__limite}\n")
 
     def depositar(self, valor):
         if valor > 0:
@@ -84,3 +84,5 @@ print(f"{conta1.__dict__}\n{conta2.__dict__}")
 conta1.transferir(100, conta2)
 
 print(f"{conta1.__dict__}\n{conta2.__dict__}")
+
+conta1.e
