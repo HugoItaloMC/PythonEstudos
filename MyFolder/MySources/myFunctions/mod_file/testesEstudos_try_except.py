@@ -1,10 +1,4 @@
-"""
- Ultilizando Python 3.10
- Testes bloco try except
- - Receber Entrada de usuário em um iterável
- - Tratar possíveis erros
- - Ultilizar funcões de módulos importados
-
+"
 
 # importando o módulos
 
@@ -39,4 +33,3 @@ finally:
     pdf.cell(40, 10, f'{cont}')  # Digitando texto, formatando posicionamento
     pdf.output('tuto1.pdf', 'F')  # criando arquivo, arquivo PDF será criado no diretório que se encontra o arquivo .
     cons = 1
-"""

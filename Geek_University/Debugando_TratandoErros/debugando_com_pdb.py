@@ -26,7 +26,7 @@ print("Resultado: ", operacao(input(f"operacão (divisão)\nDigite Valor: "), in
 # Ultilizando o import pbd de uma forma otimizada
 
 nome = "Hugo"
-# import pdb; pdb.set_trace()
+#import pdb; pdb.set_trace()
 '''
   COMANDOS BÁSICOS PDB :
   - l . Listar onde estamos no código
