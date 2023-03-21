@@ -1,6 +1,10 @@
 import openai
+from datetime import datetime
 
-openai.api_key = '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'
+
+openai.api_key = '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'
+CHAT_WRITES_READ: list = []
+
 
 def gerar_texto(prompt):
     completions = openai.Completion.create(
@@ -13,8 +17,24 @@ def gerar_texto(prompt):
     )
     message = completions.choices[0].text
     return message.strip()
+
 def main():
     while (prompt := input(':: You  = ')) != 'sair':
-        print('R:  ', gerar_texto(prompt))
+        CHAT_WRITES_READ.append(prompt)
+        CHAT_WRITES_READ.append(gerar_texto(prompt))
+        with open('arq.txt', '+a') as arq:
+            arq.write(f'\n{datetime.now()}\n:: YOU\t=\n{CHAT_WRITES_READ[0]}\n:: R\t=\n{CHAT_WRITES_READ[1]}\n')
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+
+
+
+
+
+
