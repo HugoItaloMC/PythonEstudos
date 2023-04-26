@@ -2,13 +2,13 @@ import openai
 from datetime import datetime
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 CHAT_WRITES_READ: list = []
 
 
 def gerar_texto(prompt):
     completions = openai.Completion.create(
-        engine='text-davinci-003',
+        engine='text-ada-001',
         prompt=prompt,
         max_tokens=3000,
         n=1,

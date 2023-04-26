@@ -4,7 +4,7 @@ StringIO
  Para leitura e escrita de arquivos no Sistema Operacional, devemos ter permissão para manipular o arquivo
 permissão de administrador.
 
-StringIO -> Escreve em arquivos em memória no siste
+StringIO -> Escreve em arquivos em memória no sistema
 
 """
 

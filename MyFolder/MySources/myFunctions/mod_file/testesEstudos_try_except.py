@@ -33,3 +33,15 @@ finally:
     pdf.cell(40, 10, f'{cont}')  # Digitando texto, formatando posicionamento
     pdf.output('tuto1.pdf', 'F')  # criando arquivo, arquivo PDF será criado no diretório que se encontra o arquivo .
     cons = 1
+
+
+
+
+
+
+
+
+
+# ******************************
+
+
