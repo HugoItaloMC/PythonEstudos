@@ -11,6 +11,8 @@ deadlocks e processos-filhos travados ("zumbis")
 """
 
 import subprocess
+import shlex
+import os
 from time import time
 
 # Popen e o construtor que inicia o processo
@@ -54,3 +56,53 @@ for prc in procs:
     proc.communicate()
 end = time()
 print("Finish in %.3f " % (end - start))
+
+# Desviar dados do programa utilizando PIPES
+# criptografar informacoes utilizando processos-filho
+# Levando e consideracao que `data`  representa os dados de qualquer fonte
+# (SOCKET, DB, INPUT_USER, SendFiles)
+
+COMMAND_SSL = shlex.split(shlex.join(
+    ['openssl', 'enc', '-pbkdf2', '-pass', 'env:password']))
+COMMAND_SH = shlex.join(shlex.split('netstat -a'))
+
+
+def first_pipe(data):
+    # Utilizaremos uma ferramenta externa de linhas de comandos
+    # Criptograficaremos os dados utilizando openssl
+    env = os.environ.copy()
+    env['password'] = '%s' % os.urandom(15)
+    proc = subprocess.Popen(
+        COMMAND_SSL,
+        env=env, stdin=subprocess.PIPE, stdout=subprocess.PIPE
+    )
+    proc.stdin.write(data)
+    proc.stdin.flush()  # Garante que o processo receba algum dado na entrada
+    proc.stdin.close()
+    yield proc
+
+
+def after_pipe(args):
+    with open('info.txt', 'wb') as filerr:
+        proc = subprocess.Popen(COMMAND_SH, stdin=args,
+                                stdout=subprocess.PIPE, shell=True)
+        for line in iter(proc.stdout.readline, b''):
+            filerr.write(line)
+            yield line
+if __name__ == '__main__':
+    output_procs = list()
+    start = time()
+    for _ in range(3):
+        data = os.urandom(10)
+        procs = first_pipe(data)
+        for proc in procs:
+            output_procs.append(after_pipe(proc.stdout))
+
+    for lines in output_procs:
+        for line in lines:
+            print(line.decode('utf-8'))
+
+    # Aguardar processos serem finalizados
+    end = time()
+    print("Finished in %.3f" % (end - start))
+    # max: Finished in 0.800 seg`s | min: Finished in 0.480 seg`s
